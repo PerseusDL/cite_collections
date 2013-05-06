@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CiteCollection.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<collectionService xmlns="http://chs.harvard.edu/xmlns/cite/capabilities">
+        <citeCollection
+            canonicalId="image_urn"
+            class="11u7vuWu2iUX2zQYBz7df0W6f8-kaXw08iNYZ_0I"
+            name="epifacsimg"
+            description="MCB Epigraphy Image Collection">
+            <namespaceMapping
+                abbr="epifacs"
+                fullValue="http://data.perseus.org/images"/>
+            <citeProperty
+                label="Image URN"
+                name="image_urn"
+                type="citeurn"/>
+            <citeProperty label="Image Name" name="name" type="string"/>
+            <citeProperty name="rights" label="Rights" type="string">
+                <valueList>
+                    <value>Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</value>
+                </valueList>
+            </citeProperty>
+            <citeProperty name="caption" label="Caption" type="string"/>
+            <citeProperty name="title" label="Title" type="string"/>
+            <citeProperty name="description" label="Description" type="string"/>
+            <citeProperty name="creator" label="Creator (Image)" type="string">
+                <valueList>
+                    <value>Marie-Claire Beaulieu</value>
+                </valueList>
+            </citeProperty>
+            <citeProperty name="date" label="Date (Image)" type="datetime"/>
+            <citeProperty name="edited_by" label="Edited By" type="authuser"/>
+            <citeProperty label="Work URN" name="work_urn" type="ctsurn"/>
+            <citeProperty name="work_creator" label="Work Creator" type="string"/>
+            <citeProperty name="work_date" label="Work Date" type="datetime"/>
+        </citeCollection>
+        <citeCollection
+            canonicalId="urn"
+            class="1oW-in53aOlFUAQiUVkCo8HH_0d18c5_u5_a79OY"
+            name="lci"
+            description="Perseus Collection of Lost Content Items">
+            <namespaceMapping
+                abbr="perseus"
+                fullValue="http://data.perseus.org/ns/collections"/>
+            <citeProperty
+                name="urn"
+                label="urn"
+                type="citeurn"
+                />
+            <citeProperty
+                name="title"
+                label="Title"
+                type="string"/>
+            <citeProperty
+                name="description"
+                label="Description"
+                type="markdown"/>
+         </citeCollection>
+        <citeCollection
+            canonicalId="urn"
+            class="1ftJ-hXUv4XyEEu_vdpKKJQKyvoVbUTMA2izEhFM"
+            name="lexentity"
+            description="Greek Lexical Entities">
+            <namespaceMapping
+                abbr="perseusGreek"
+                fullValue="http://data.perseus.org/lexical/grc/"/>
+            <citeProperty
+                label="Entity URN"
+                name="urn"
+                type="citeurn"/>
+            <citeProperty
+                label="Normalized Lemma"
+                name="normalizedlemma"
+                type="string"/>
+            <citeProperty
+                label="Short Definition"
+                name="shortdef"
+                type="string"/>
+            <citeProperty
+                label="Sources"
+                name="sources"
+                type="string"/>
+            <citeProperty
+                label="Status"
+                name="status"
+                type="string">
+                <valueList>
+                    <value>proposed</value>
+                    <value>published</value>
+                    <value>rejected</value>
+                </valueList>
+            </citeProperty>
+            <citeProperty
+                label="Redirected To"
+                name="redirect"
+                type="citeurn"/>
+        </citeCollection>
+        <citeCollection
+            canonicalId="urn"
+            class="1ZyeyU2FfL5BYGUFfM0Jzimba3sruouPbsuA8Hgc"
+            name="DCGA"
+            description="Alignment beads in A Digital Corpus for Greco-Arabic">
+            <namespaceMapping
+                abbr="perseus"
+                fullValue="http://data.perseus.org/alignment"/>
+            <citeProperty
+                label="Annotation URN"
+                name="urn"
+                type="citeurn"/>
+            <!-- maps to Google String -->
+            <citeProperty
+                label="Language 1"
+                name="l1"
+                type="string"/>
+            <citeProperty
+                label="Cite from Language 1 Text"
+                name="l1cite"
+                type="ctsurn"/>
+            <citeProperty
+                label="Language 2"
+                name="l2"
+                type="string"/>
+            <citeProperty
+                label="Cite from Language 2 Text"
+                name="l2cite"
+                type="ctsurn"/>
+            <citeProperty
+                label="Comment"
+                name="Comment"
+                type="markdown"/>
+            <!-- maps to Google String -->
+        </citeCollection>
+ <citeCollection
+            canonicalId="urn"
+            class="1mMFaggCgkPXClETOY10G0gvE_5f5Ls9ja-YFe-4"
+            name="lcicomm"
+            description="Perseus Collection of Commentary on Lost Content Items">
+            <namespaceMapping
+                abbr="perseus"
+                fullValue="http://data.perseus.org/ns/collections"/>
+            <citeProperty
+                name="urn"
+                label="urn"
+                type="citeurn"
+                />
+            <citeProperty
+                name="commentsOn"
+                label="commentsOn"
+                type="citeurn"
+               />
+            <citeProperty
+                name="commentary"
+                label="Commentary"
+                type="markdown"/>
+            <citeProperty
+                label="Author"
+                name="author"
+                type="authuser"/>
+    </citeCollection>
+ <citeCollection
+            canonicalId="urn"
+            class="1nLNd9a__tbj7x0MaEQoXQjuEzvgWnl4F8fjthXI"
+            name="comm"
+            description="Perseus General Commentary Collection">
+            <namespaceMapping
+                abbr="perseus"
+                fullValue="http://data.perseus.org/ns/collections"/>
+            <citeProperty
+                name="urn"
+                label="urn"
+                type="citeurn"
+                />
+            <citeProperty
+                name="commentary"
+                label="Commentary"
+                type="markdown"/>
+            <citeProperty
+                label="Author"
+                name="author"
+                type="authuser"/>
+   </citeCollection>
+</collectionService>
