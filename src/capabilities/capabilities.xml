@@ -235,9 +235,9 @@
             type="markdown"/>
         <citeProperty name="EditedBy" label="Edited By" type="authuser"/>
     </citeCollection>
-    <citeCollection canonicalId="urn" class="1sjeeqv_TKrWQ1wDurpA8ltXtfhJnVCpVyZYrHXA" name="primauth"
-        description="Perseus Catalog of Primary Authors">
-        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1">Perseus Primary Authors</dc:title>
+    <citeCollection canonicalId="urn" class="1JKDi1OHvxWoh1w38mnQfUDey2pB_nx3UnRITvcA" name="author"
+        description="Perseus Catalog of Authors">
+        <dc:title xmlns:dc="http://purl.org/dc/elements/1.1">Perseus Authors</dc:title>
         <namespaceMapping abbr="perseus" fullValue="http://data.perseus.org/ns/collections"/>
         <citeProperty name="urn" label="Author Identifier" type="citeurn"/>
         <citeProperty name="authority_name" label="Authority Name" type="string"/>
