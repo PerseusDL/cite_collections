@@ -55,6 +55,11 @@
                 name="description"
                 label="Description"
                 type="markdown"/>
+            type="markdown"/>
+            <citeProperty
+                label="Author"
+                name="author"
+                type="authuser"/>
          </citeCollection>
         <citeCollection
             canonicalId="urn"
