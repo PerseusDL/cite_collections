@@ -73,6 +73,41 @@
                 name="redirect"
                 type="citeurn"/>
         </citeCollection>
+    <citeCollection
+        canonicalId="urn"
+        class="12HCnOvozr3Jq3RumBtq2WpylYxJXBFHh-mP0694"
+        name="latlexent"
+        description="Latin Lexical Entities">
+        <namespaceMapping
+            abbr="perseus"
+            fullValue="http://data.perseus.org/ns/collections"/>
+        <citeProperty
+            label="Entity URN"
+            name="urn"
+            type="citeurn"/>
+        <citeProperty
+            label="Normalized Lemma"
+            name="normalizedlemma"
+            type="string"/>
+        <citeProperty
+            label="Short Definition"
+            name="shortdef"
+            type="string"/>
+        <citeProperty
+            label="Status"
+            name="status"
+            type="string">
+            <valueList>
+                <value>proposed</value>
+                <value>published</value>
+                <value>rejected</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty
+            label="Redirected To"
+            name="redirect"
+            type="citeurn"/>
+    </citeCollection>
  <citeCollection
             canonicalId="urn"
             class="1oW-in53aOlFUAQiUVkCo8HH_0d18c5_u5_a79OY"

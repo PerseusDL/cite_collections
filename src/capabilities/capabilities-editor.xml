@@ -18,6 +18,7 @@
         <citeProperty name="rights" label="Rights" type="string">
             <valueList>
                 <value>Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</value>
+                <value>Copyright Musée du Louvre</value>
             </valueList>
         </citeProperty>
         <citeProperty name="caption" label="Caption" type="string"/>
