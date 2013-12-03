@@ -34,12 +34,12 @@ Might be good to take another pass or two through the base inventory to automati
 For full details, see the parse.pl script in the src.tgz archive.
 
 1. Extracted all distinct lemmas (and any available short defs) from 
-    a. Lewis & Short Lexicon (via Alpheios index)
-    b. Perseus hib_entities table
-    c. Philologic DB 
+    1. Lewis & Short Lexicon (via Alpheios index)
+    1. Perseus hib_entities table
+    1. Philologic DB 
 2. Created normalized label for each lemmas by:
-    a. strip vowel length, accents and dipthongs (ae/oe)
-    b. retain case
+    1. stripping vowel length, accents and dipthongs (ae/oe)
+    1. retaining case
 3. Ran each distinct lemma through morpheus to see if it parsed.
 4. Mapped morpheus lemmas to corresponding urn
 5. Output triples and csv import file
