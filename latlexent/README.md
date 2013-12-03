@@ -20,7 +20,9 @@ inventory_import.csv is the csv file I'll use for the import to the Google Fusio
 lexicon.ttl is a sample set of triples that include the sources of the lexical entities.  I'm just using basic vocabulary for now have made up a urn syntax for the morpheus lemmas urn:morpheus:latin:lemma:MORPHLEMMA (e.g. urn:morpheus:latin:lemma:occido1). We can figure out the exact vocabulary to use later, but I wanted to record the provenance of the entities in some way.
 
 `lexicalentityurn rdfs:label normalizedlemma`
+
 `lexicalentityurn rdfs:isDefinedBy lexiconurl`
+
 `morpheusurn owl:sameAs lexicalentityurn`
 
 redirects contains list of entity urns that I think are probably ones that should either be redirected or not be in the inventory at all. Tab separated columns are urn, original entity text, morpheus output (if any).
