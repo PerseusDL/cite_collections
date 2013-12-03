@@ -13,7 +13,7 @@ Unless otherwise indicated, all contents of this repository are licensed under a
 
 ====================
 
-##Notes on Collection Creation
+##Files
 
 inventory_import.csv is the csv file I'll use for the import to the Google Fusion table that will serve as the main data source for the inventory. (Columns are urn, normalized lemma, short def, status and redirect)
 
@@ -29,3 +29,17 @@ redirects contains list of entity urns that I think are probably ones that shoul
 
 Might be good to take another pass or two through the base inventory to automatically provide redirects for named entities and verbal adjectives.
 
+## Notes on Collection Creation
+
+For full details, see the parse.pl script in the src.tgz archive.
+
+1. Extracted all distinct lemmas (and any available short defs) from 
+    a. Lewis & Short Lexicon (via Alpheios index)
+    b. Perseus hib_entities table
+    c. Philologic DB 
+2. Created normalized label for each lemmas by:
+    a. strip vowel length, accents and dipthongs (ae/oe)
+    b. retain case
+3. Ran each distinct lemma through morpheus to see if it parsed.
+4. Mapped morpheus lemmas to corresponding urn
+5. Output triples and csv import file
