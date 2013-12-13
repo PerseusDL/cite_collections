@@ -15,19 +15,18 @@ Unless otherwise indicated, all contents of this repository are licensed under a
 
 ##Files
 
-inventory_import.csv is the csv file I'll use for the import to the Google Fusion table that will serve as the main data source for the inventory. (Columns are urn, normalized lemma, short def, status and redirect)
+inventory_import.csv is the csv file used for the import to the Google Fusion table that serves as the main data source for the inventory. (Columns are urn, normalized lemma, short def, status, redirect, added_by, edited_by)
 
-lexicon.ttl is a sample set of triples that include the sources of the lexical entities.  I'm just using basic vocabulary for now have made up a urn syntax for the morpheus lemmas urn:morpheus:latin:lemma:MORPHLEMMA (e.g. urn:morpheus:latin:lemma:occido1). We can figure out the exact vocabulary to use later, but I wanted to record the provenance of the entities in some way.
+lexicon.ttl is a set of triples that include the sources of the lexical entities.  I'm just using very basic vocabulary for now. For future work we need to explore standard ontologies for lexical resources including GOLD, Olia, LMM, Lemon, etc. 
 
 `lexicalentityurn rdfs:label normalizedlemma`
-
-`lexicalentityurn rdfs:isDefinedBy lexiconurl`
-
-`morpheusurn owl:sameAs lexicalentityurn`
+`lexicalentityurn dcterms:description shortdef`
+`lexicalentityurn dcterms:isReferencedBy lexiconurl`
+`lexicalentityurn perseus:hasMorpheusLemma "lemma"@lat`
+`lexicalentityurn dcterms:isReplacedBy lexicalentityurn`
+	
 
 redirects contains list of entity urns that I think are probably ones that should either be redirected or not be in the inventory at all. Tab separated columns are urn, original entity text, morpheus output (if any).
-
-Might be good to take another pass or two through the base inventory to automatically provide redirects for named entities and verbal adjectives.
 
 ## Notes on Collection Creation
 
@@ -42,4 +41,7 @@ For full details, see the parse.pl script in the src.tgz archive.
     1. retaining case
 3. Ran each distinct lemma through morpheus to see if it parsed.
 4. Mapped morpheus lemmas to corresponding urn
-5. Output triples and csv import file
+5. For any entities whose short def matched '\\N' in a Perseus lexicon and which do not start with an initial cap (indicating a named entity):
+    1. set initial status to 'review' instead of 'proposed'
+    1. tried to parse the actual lexicon xml for the entity and if it looked to be pointing at an see reference and that reference was a lemma we have then identify the urn(s) as possible redirects
+6. Output triples and csv import file
