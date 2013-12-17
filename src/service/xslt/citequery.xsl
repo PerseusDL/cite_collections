@@ -1,29 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    version="1.0" xmlns:cite="http://shot.holycross.edu/xmlns/citequery" xmlns:exsl="http://exslt.org/common">
+    version="1.0" xmlns:cite="http://shot.holycross.edu/xmlns/cite">
     <xsl:import href="header.xsl"/>
     <xsl:output encoding="UTF-8" indent="no" method="html"/>
     
     <!-- Placeholder stylesheet mirroring source xml until 
     real stylesheet is written.
     -->
-    <xsl:variable name="perseidsInventoryLookup">
-        <namespaces>
-            <item ns="ceg" inv="epifacs"/>
-            <item ns="ig" inv="epifacs"/>
-            <item ns="greekLit" inv="perseus"/>
-            <item ns="latinLit" inv="perseus"/>
-        </namespaces>
-    </xsl:variable>
-    <xsl:variable name="perseidsInventoryLookupTable" select="exsl:node-set($perseidsInventoryLookup)"/>
+    
     <xsl:variable name="ImageServiceGIP">http://services.perseus.tufts.edu/chsimg/Img?request=GetImagePlus&amp;xslt=gip.xsl&amp;urn=</xsl:variable>
     <xsl:variable name="ImageServiceThumb">http://services.perseus.tufts.edu/chsimg/Img?request=GetBinaryImage&amp;w=200&amp;urn=</xsl:variable>
     <xsl:variable name="IIPSrvThumb">http://services.perseus.tufts.edu/fcgi-bin/iipsrv.fcgi?FIF=/mnt/netapp/epifacs-prod/NAME.tif&amp;cnt=1&amp;sds=0,0&amp;jtl=0,0</xsl:variable>
     <xsl:variable name="IIPSrvFull">http://services.perseus.tufts.edu/fcgi-bin/iipsrv.fcgi?FIF=/mnt/netapp/epifacs-prod/NAME.tif&amp;cnt=1&amp;WID=400&amp;CVT=JPEG</xsl:variable>
-    <xsl:variable name="CollectionEditorUrl">http://sosol.perseus.tufts.edu/epifacs-image-inv/#collection=</xsl:variable>
-    <xsl:variable name="PerseidsNewTranscriptionUrl">http://sosol.perseus.tufts.edu/sosol/cts_publications/create_from_selector/?commit=Create+Edition&amp;IdentifierClass=CTSIdentifier&amp;CTSIdentifierCollectionSelect=</xsl:variable>
-    <xsl:variable name="PerseidsEditUrl">http://sosol.perseus.tufts.edu/sosol/cts_publications/crate_from_linked_urn/REPLACE_URN/?&amp;collection=REPLACE_INV</xsl:variable>
-    
+    <xsl:variable name="CollectionEditorUrl">http://sosol.perseus.tufts.edu/cce/#collection=</xsl:variable>
     <xsl:template match="/">
         <html>
             <head>
@@ -63,7 +52,7 @@
                 	var urlOfImgService = "http://services.perseus.tufts.edu/chsimg/Img?urn=";
     	           var pathToImgXSLT = "html-ctskit/ctskit/xsl/gip.xsl";
 
-            		var urlOfCite = "http://sosol.perseus.tufts.edu/epifacs-image-inv/#collection=";
+            		var urlOfCite = "http://sosol.perseus.tufts.edu/cce/#collection=";
     	           var collectionElementClass = "cite-collection";
     	           var pathToCiteXSLT = "html-ctskit/ctskit/xsl/citeCollection.xsl";
     	                  
@@ -111,7 +100,7 @@
         
         <xsl:variable name="prop"><xsl:choose><xsl:when test="$coll='epifacsimg'">image_urn</xsl:when><xsl:otherwise>urn</xsl:otherwise></xsl:choose></xsl:variable>
         <h2>Object</h2>
-        <p><a target="_blank" href="{concat($CollectionEditorUrl,$coll,'&amp;',$prop,'=',@urn)}"><xsl:value-of select="@urn"/></a></p>
+        <p><xsl:value-of select="@urn"/><a target="_blank" href="{concat($CollectionEditorUrl,$coll,'&amp;',$prop,'=',@urn)}">Edit Catalog Entry</a></p>
         <table>
             <thead>
                 <th>Label</th>
@@ -132,43 +121,7 @@
 
     <xsl:template name="handleProperty">
         <xsl:choose>
-            <xsl:when test="@type= 'ctsurn'">
-                <xsl:variable name="collectionns" select="substring-before(substring-after(.,'urn:cts:'),':')"/>
-                <xsl:variable name="inventory" 
-                    select="$perseidsInventoryLookupTable//item[@ns = $collectionns]/@inv"/>
-                <xsl:variable name="textgroup" 
-                    select="substring-before(substring-after(.,concat($collectionns,':')),'.')"/>
-                <xsl:variable name="rest" select="substring-after(.,concat($textgroup,'.'))"/>
-                <xsl:variable name="work">
-                    <xsl:choose>
-                        <xsl:when test="contains($rest,'.')">
-                            <xsl:value-of select="translate(substring-before($rest,'.'),',','_')"/>    
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:value-of select="translate($rest,',','_')"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:variable>
-                <xsl:variable name="version">
-                    <xsl:choose>
-                        <xsl:when test="$work and contains($rest,'.')">
-                            <xsl:value-of select="substring-after($rest,'.')"/>    
-                        </xsl:when>
-                        <xsl:otherwise/>
-                    </xsl:choose>
-                </xsl:variable>
-                <xsl:message>INV=<xsl:value-of select="$inventory"/>NS=<xsl:value-of select="$collectionns"/>TG=<xsl:value-of select="$textgroup"/> WK=<xsl:value-of select="$work"/> V=<xsl:value-of select="$version"/></xsl:message>
-                <xsl:choose>
-                    <xsl:when test="$inventory and $version = ''">
-                        <xsl:variable name="perseids" select="
-                            concat($PerseidsNewTranscriptionUrl,$inventory,'&amp;group_urn=',$collectionns,':',$textgroup,'&amp;work_urn=',$collectionns,':',$textgroup,'.',$work)"/>
-                        <a href="{$perseids}" title="Create new Transcription"><xsl:value-of select="."/></a>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:value-of select="."/>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:when>
+            
             <xsl:when test="@type= 'citeurn'">
                 <xsl:element name="a">
                     <xsl:attribute name="href">api?req=GetObject&amp;urn=<xsl:value-of select="."/></xsl:attribute>
@@ -198,6 +151,17 @@
                         <xsl:attribute name="title"><xsl:value-of select="."/></xsl:attribute>
                     </xsl:element>
                 </xsl:element>
+            </xsl:when>
+            <!-- hacks for catalog -->
+            <xsl:when test="@name='textgroup' or @name='work' or @name='version'">
+                <xsl:element name="a">
+                    <xsl:attribute name="target">_blank</xsl:attribute>
+                    <xsl:attribute name="href">http://23.21.200.102/catalog/<xsl:value-of select="."/></xsl:attribute><xsl:value-of select="."/>
+                </xsl:element>
+            </xsl:when>
+            <xsl:when test="@name='has_mods'">
+                <xsl:value-of select="."/>
+                <a href="" onclick="alert('TODO enable edit MODs in Perseids');return false;"> (Edit/Create MODs)</a>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:value-of select="."/>

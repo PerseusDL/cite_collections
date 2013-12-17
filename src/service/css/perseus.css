@@ -1,0 +1,36 @@
+caption .canonicaluri {
+    text-align:left;
+}
+.canonicaluri .label {
+    color: #888888;
+}
+
+.canonicaluri, .editLink {
+    font-size:smaller;
+}
+
+.canonicaluri a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+caption .editlink {
+    text-align:left;
+    font-weight: normal;
+}
+.editlink a {
+    padding-left: .5em;
+}
+.perseids_cite_commentary_create {
+    border-bottom: 1px black dashed; 
+    padding-bottom: .5em; 
+    margin-bottom: 1em;
+}
+blockquote.cite-collection {
+    border-bottom: 1px dashed #888888;
+}
+
+footer img {
+    border: none;
+}

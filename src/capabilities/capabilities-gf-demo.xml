@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CiteCollection.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!-- 
+    This Inventory Contains the Definition of Demonstration Perseus CITE Collections 
+    whose data is maintained in Google Fusion Tables and managed via the 
+    CITE Collection Editor/Manager suite of tools.
+    
+    Tufts University holds the overall copyright to the Perseus Digital Library; 
+    the materials therein (including all texts, translations, images, descriptions, drawings, etc.) 
+    are provided for the personal use of students, scholars, and the public.
+    
+    Materials within the Perseus DL have varying copyright status: please contact the project 
+    for more information about a specific component or object. Copyright is protected by 
+    the copyright laws of the United States and the Universal Copyright Convention.
+
+    Unless otherwise indicated, all collections identified here are licensed under a 
+    Creative Commons Attribution-ShareAlike 3.0 United States License. 
+    You must offer Perseus any modifications you make. Perseus provides credit for all accepted changes. 
+-->
+<collectionService xmlns="http://chs.harvard.edu/xmlns/cite">
+    <citeCollection
+        canonicalId="urn"
+        class="1ZyeyU2FfL5BYGUFfM0Jzimba3sruouPbsuA8Hgc"
+        name="DCGA"
+        description="Alignment beads in A Digital Corpus for Greco-Arabic">
+        <namespaceMapping
+            abbr="perseus"
+            fullValue="http://data.perseus.org/ns/collections"/>
+        <citeProperty
+            label="Annotation URN"
+            name="urn"
+            type="citeurn"/>
+        <!-- maps to Google String -->
+        <citeProperty
+            label="Language 1"
+            name="l1"
+            type="string"/>
+        <citeProperty
+            label="Cite from Language 1 Text"
+            name="l1cite"
+            type="ctsurn"/>
+        <citeProperty
+            label="Language 2"
+            name="l2"
+            type="string"/>
+        <citeProperty
+            label="Cite from Language 2 Text"
+            name="l2cite"
+            type="ctsurn"/>
+        <citeProperty
+            label="Comment"
+            name="Comment"
+            type="markdown"/>
+        <!-- maps to Google String -->
+    </citeCollection>
+    <citeCollection
+        canonicalId="urn"
+        class="1nLNd9a__tbj7x0MaEQoXQjuEzvgWnl4F8fjthXI"
+        name="comm"
+        description="Perseus General Commentary Collection">
+        <namespaceMapping
+            abbr="perseus"
+            fullValue="http://data.perseus.org/ns/collections"/>
+        <citeProperty
+            name="urn"
+            label="urn"
+            type="citeurn"
+        />
+        <citeProperty
+            name="commentary"
+            label="Commentary"
+            type="markdown"/>
+        <citeProperty
+            label="Author"
+            name="author"
+            type="authuser"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="urn"
+        class="1HJR0WGqOqio8OZgTMscXSKpjFKUHmHSNo0XKzLY"
+        name="bodinalign"
+        description="Alignment beads in Bodin">
+        <namespaceMapping
+            abbr="perseus"
+            fullValue="http://data.perseus.org/alignment"/>
+        <citeProperty
+            label="Annotation URN"
+            name="urn"
+            type="citeurn"/>
+        <!-- maps to Google String -->
+        <citeProperty
+            label="Language 1"
+            name="l1"
+            type="string">
+            <valueList>
+                <value>eng</value>
+                <value>fra</value>
+                <value>lat</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty
+            label="Start Cite Range from Language 1 Text"
+            name="l1cite_start"
+            type="ctsurn"/>
+        <citeProperty
+            label="End Cite Range from Language 1 Text"
+            name="l1cite_end"
+            type="ctsurn"/>
+        <citeProperty
+            label="Language 2"
+            name="l2"
+            type="string">
+            <valueList>
+                <value>eng</value>
+                <value>fra</value>
+                <value>lat</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty
+            label="Start Cite Range from Language 2 Text"
+            name="l2cite_start"
+            type="ctsurn"/>
+        <citeProperty
+            label="End Cite Range from Language 2 Text"
+            name="l2cite_end"
+            type="ctsurn"/>
+        <citeProperty
+            label="Comment"
+            name="Comment"
+            type="markdown"/>
+        <citeProperty name="EditedBy" label="Edited By" type="authuser"/>
+    </citeCollection>
+</collectionService>
