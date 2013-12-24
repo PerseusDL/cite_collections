@@ -107,7 +107,7 @@
                 </xsl:call-template>                
             </xsl:when>
             <xsl:when test="@type= 'citeimg' and . != ''">
-                <blockquote property="{$rdfa-property}" class="cite-image"><xsl:value-of select="."/></blockquote>
+                <blockquote property="{$rdfa-property}" class="cite-image" cite="{.}"><xsl:value-of select="."/></blockquote>
             </xsl:when>
             <xsl:when test="@type= 'markdown'">
                 <span class="md"  property="{$rdfa-property}"><xsl:value-of select="."/></span>
@@ -175,18 +175,25 @@
     <xsl:template name="split_cite_list">
         <xsl:param name="remaining"/>
         <xsl:param name="rdfa-property"/>
-        <xsl:variable name="next" select="substring-before($remaining,',')"/>
+        <xsl:variable name="next" select="substring-before($remaining,',urn:cite:')"/>
         <xsl:choose>
-            <xsl:when test="$next">
-                <!-- if we have rdfa detail, repeat it here -->
-                <blockquote resource="{.}" property="{$rdfa-property}" class="cite-collection" cite="{$next}"><xsl:value-of select="$next"/></blockquote>
-                <xsl:call-template name="split_cite_list">
-                    <xsl:with-param name="remaining" select="substring-after($remaining,',')"></xsl:with-param>
-                    <xsl:with-param name="rdfa-property" select="$rdfa-property"/>
-                </xsl:call-template>
+            <xsl:when test="$next = ''">
+                <blockquote resource="{.}" property="{$rdfa-property}" class="cite-collection" cite="{.}"><xsl:value-of select="."/></blockquote>
             </xsl:when>
-            <xsl:otherwise/>
-        </xsl:choose>
+            <xsl:otherwise>
+                <xsl:choose>
+                    <xsl:when test="$next">
+                        <!-- if we have rdfa detail, repeat it here -->
+                        <blockquote resource="{.}" property="{$rdfa-property}" class="cite-collection" cite="{$next}"><xsl:value-of select="$next"/></blockquote>
+                        <xsl:call-template name="split_cite_list">
+                            <xsl:with-param name="remaining" select="concat('urn:cite:',substring-after($remaining,',urn:cite:'))"></xsl:with-param>
+                            <xsl:with-param name="rdfa-property" select="$rdfa-property"/>
+                        </xsl:call-template>
+                    </xsl:when>
+                    <xsl:otherwise/>
+                </xsl:choose>        
+            </xsl:otherwise>
+        </xsl:choose>        
     </xsl:template>
     
     <xsl:template name="get-version">

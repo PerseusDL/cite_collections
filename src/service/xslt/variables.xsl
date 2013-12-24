@@ -102,13 +102,13 @@
     
     <!-- Configuration of CiteKit Variables -->
     <xsl:variable name="citekitconfig">
-        <ul id="citekit-sources" style="display:none;">
+        <ul id="citekit-sources" style="display:none;" data-baseurl="http://perseids.org/tools/citekit">
             <!-- Perseids CTS Service-->
             <li class="citekit-source cite-text citekit-default" id="svc-perseids-cts">http://perseids.org/alpheios/cts/xq/CTS.xq</li>
             <!-- Perseus Image Service -->
-            <li class="citekit-source cite-image citekit-default" id="svc-perseus-image">http://services.perseus.tufts.edu/sparqlimg</li>
+            <li class="citekit-source cite-image citekit-default" id="svc-perseus-image">http://services.perseus.tufts.edu/sparqlimg/api</li>
             <!-- Perseids Collection Services -->
-            <li class="citekit-source citekit-default cite-collection" id="svc-perseids-collection">http://sosol.perseids.org/collections/api?</li>
+            <li class="citekit-source citekit-default cite-collection" id="svc-perseids-collection">http://sosol.perseids.org/collections/api</li>
         </ul>
     </xsl:variable>
     
