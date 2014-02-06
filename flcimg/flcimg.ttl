@@ -1,0 +1,2073 @@
+@prefix hmt:        <http://www.homermultitext.org/hmt/rdf/> .
+@prefix cite:        <http://www.homermultitext.org/cite/rdf/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+<urn:cite:perseus:flcimg> rdf:type cite:ImageArchive .
+<urn:cite:perseus:flcimg> rdf:label "Perseus Digital Library images of the Forest Law Compendium Manuscript." .
+<urn:cite:perseus:flcimg> hmt:path "/usr/local/perseus/collections/images/flcimg" .
+<urn:cite:perseus:flcimg.1> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.1> .
+<urn:cite:perseus:flcimg.1> rdf:label " " .
+<urn:cite:perseus:flcimg.1> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.10> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.10> .
+<urn:cite:perseus:flcimg.10> rdf:label " " .
+<urn:cite:perseus:flcimg.10> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.100> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.100> .
+<urn:cite:perseus:flcimg.100> rdf:label " " .
+<urn:cite:perseus:flcimg.100> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.100> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.100> .
+<urn:cite:perseus:flcimg.101> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.101> .
+<urn:cite:perseus:flcimg.101> rdf:label " " .
+<urn:cite:perseus:flcimg.101> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.101> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.101> .
+<urn:cite:perseus:flcimg.102> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.102> .
+<urn:cite:perseus:flcimg.102> rdf:label " " .
+<urn:cite:perseus:flcimg.102> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.102> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.102> .
+<urn:cite:perseus:flcimg.103> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.103> .
+<urn:cite:perseus:flcimg.103> rdf:label " " .
+<urn:cite:perseus:flcimg.103> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.103> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.103> .
+<urn:cite:perseus:flcimg.104> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.104> .
+<urn:cite:perseus:flcimg.104> rdf:label " " .
+<urn:cite:perseus:flcimg.104> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.104> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.104> .
+<urn:cite:perseus:flcimg.105> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.105> .
+<urn:cite:perseus:flcimg.105> rdf:label " " .
+<urn:cite:perseus:flcimg.105> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.105> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.105> .
+<urn:cite:perseus:flcimg.106> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.106> .
+<urn:cite:perseus:flcimg.106> rdf:label " " .
+<urn:cite:perseus:flcimg.106> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.106> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.106> .
+<urn:cite:perseus:flcimg.107> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.107> .
+<urn:cite:perseus:flcimg.107> rdf:label " " .
+<urn:cite:perseus:flcimg.107> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.107> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.107> .
+<urn:cite:perseus:flcimg.108> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.108> .
+<urn:cite:perseus:flcimg.108> rdf:label " " .
+<urn:cite:perseus:flcimg.108> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.108> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.108> .
+<urn:cite:perseus:flcimg.109> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.109> .
+<urn:cite:perseus:flcimg.109> rdf:label " " .
+<urn:cite:perseus:flcimg.109> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.109> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.109> .
+<urn:cite:perseus:flcimg.11> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.11> .
+<urn:cite:perseus:flcimg.11> rdf:label " " .
+<urn:cite:perseus:flcimg.11> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.110> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.110> .
+<urn:cite:perseus:flcimg.110> rdf:label " " .
+<urn:cite:perseus:flcimg.110> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.110> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.110> .
+<urn:cite:perseus:flcimg.111> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.111> .
+<urn:cite:perseus:flcimg.111> rdf:label " " .
+<urn:cite:perseus:flcimg.111> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.111> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.111> .
+<urn:cite:perseus:flcimg.112> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.112> .
+<urn:cite:perseus:flcimg.112> rdf:label " " .
+<urn:cite:perseus:flcimg.112> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.112> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.112> .
+<urn:cite:perseus:flcimg.113> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.113> .
+<urn:cite:perseus:flcimg.113> rdf:label " " .
+<urn:cite:perseus:flcimg.113> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.113> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.113> .
+<urn:cite:perseus:flcimg.114> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.114> .
+<urn:cite:perseus:flcimg.114> rdf:label " " .
+<urn:cite:perseus:flcimg.114> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.114> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.114> .
+<urn:cite:perseus:flcimg.115> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.115> .
+<urn:cite:perseus:flcimg.115> rdf:label " " .
+<urn:cite:perseus:flcimg.115> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.115> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.115> .
+<urn:cite:perseus:flcimg.116> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.116> .
+<urn:cite:perseus:flcimg.116> rdf:label " " .
+<urn:cite:perseus:flcimg.116> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.116> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.116> .
+<urn:cite:perseus:flcimg.117> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.117> .
+<urn:cite:perseus:flcimg.117> rdf:label " " .
+<urn:cite:perseus:flcimg.117> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.117> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.117> .
+<urn:cite:perseus:flcimg.118> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.118> .
+<urn:cite:perseus:flcimg.118> rdf:label " " .
+<urn:cite:perseus:flcimg.118> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.118> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.118> .
+<urn:cite:perseus:flcimg.119> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.119> .
+<urn:cite:perseus:flcimg.119> rdf:label " " .
+<urn:cite:perseus:flcimg.119> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.119> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.119> .
+<urn:cite:perseus:flcimg.12> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.12> .
+<urn:cite:perseus:flcimg.12> rdf:label " " .
+<urn:cite:perseus:flcimg.12> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.120> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.120> .
+<urn:cite:perseus:flcimg.120> rdf:label " " .
+<urn:cite:perseus:flcimg.120> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.120> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.120> .
+<urn:cite:perseus:flcimg.121> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.121> .
+<urn:cite:perseus:flcimg.121> rdf:label " " .
+<urn:cite:perseus:flcimg.121> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.121> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.121> .
+<urn:cite:perseus:flcimg.122> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.122> .
+<urn:cite:perseus:flcimg.122> rdf:label " " .
+<urn:cite:perseus:flcimg.122> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.122> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.122> .
+<urn:cite:perseus:flcimg.123> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.123> .
+<urn:cite:perseus:flcimg.123> rdf:label " " .
+<urn:cite:perseus:flcimg.123> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.123> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.123> .
+<urn:cite:perseus:flcimg.124> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.124> .
+<urn:cite:perseus:flcimg.124> rdf:label " " .
+<urn:cite:perseus:flcimg.124> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.124> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.124> .
+<urn:cite:perseus:flcimg.125> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.125> .
+<urn:cite:perseus:flcimg.125> rdf:label " " .
+<urn:cite:perseus:flcimg.125> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.125> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.125> .
+<urn:cite:perseus:flcimg.126> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.126> .
+<urn:cite:perseus:flcimg.126> rdf:label " " .
+<urn:cite:perseus:flcimg.126> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.126> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.126> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.126> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.126> .
+<urn:cite:perseus:flcimg.127> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.127> .
+<urn:cite:perseus:flcimg.127> rdf:label " " .
+<urn:cite:perseus:flcimg.127> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.127> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.127> .
+<urn:cite:perseus:flcimg.128> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.128> .
+<urn:cite:perseus:flcimg.128> rdf:label " " .
+<urn:cite:perseus:flcimg.128> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.128> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.128> .
+<urn:cite:perseus:flcimg.129> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.129> .
+<urn:cite:perseus:flcimg.129> rdf:label " " .
+<urn:cite:perseus:flcimg.129> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.129> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.129> .
+<urn:cite:perseus:flcimg.13> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.13> .
+<urn:cite:perseus:flcimg.13> rdf:label " " .
+<urn:cite:perseus:flcimg.13> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.130> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.130> .
+<urn:cite:perseus:flcimg.130> rdf:label " " .
+<urn:cite:perseus:flcimg.130> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.130> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.130> .
+<urn:cite:perseus:flcimg.131> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.131> .
+<urn:cite:perseus:flcimg.131> rdf:label " " .
+<urn:cite:perseus:flcimg.131> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.131> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.131> .
+<urn:cite:perseus:flcimg.132> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.132> .
+<urn:cite:perseus:flcimg.132> rdf:label " " .
+<urn:cite:perseus:flcimg.132> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.132> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.132> .
+<urn:cite:perseus:flcimg.133> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.133> .
+<urn:cite:perseus:flcimg.133> rdf:label " " .
+<urn:cite:perseus:flcimg.133> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.133> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.133> .
+<urn:cite:perseus:flcimg.134> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.134> .
+<urn:cite:perseus:flcimg.134> rdf:label " " .
+<urn:cite:perseus:flcimg.134> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.134> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.134> .
+<urn:cite:perseus:flcimg.135> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.135> .
+<urn:cite:perseus:flcimg.135> rdf:label " " .
+<urn:cite:perseus:flcimg.135> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.135> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.135> .
+<urn:cite:perseus:flcimg.136> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.136> .
+<urn:cite:perseus:flcimg.136> rdf:label " " .
+<urn:cite:perseus:flcimg.136> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.136> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.136> .
+<urn:cite:perseus:flcimg.137> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.137> .
+<urn:cite:perseus:flcimg.137> rdf:label " " .
+<urn:cite:perseus:flcimg.137> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.137> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.137> .
+<urn:cite:perseus:flcimg.138> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.138> .
+<urn:cite:perseus:flcimg.138> rdf:label " " .
+<urn:cite:perseus:flcimg.138> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.138> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:6> crm:P138i_has_representation <urn:cite:perseus:flcimg.138> .
+<urn:cite:perseus:flcimg.139> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.139> .
+<urn:cite:perseus:flcimg.139> rdf:label " " .
+<urn:cite:perseus:flcimg.139> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.139> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.139> .
+<urn:cite:perseus:flcimg.14> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.14> .
+<urn:cite:perseus:flcimg.14> rdf:label " " .
+<urn:cite:perseus:flcimg.14> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.140> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.140> .
+<urn:cite:perseus:flcimg.140> rdf:label " " .
+<urn:cite:perseus:flcimg.140> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.140> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.140> .
+<urn:cite:perseus:flcimg.141> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.141> .
+<urn:cite:perseus:flcimg.141> rdf:label " " .
+<urn:cite:perseus:flcimg.141> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.141> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.141> .
+<urn:cite:perseus:flcimg.142> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.142> .
+<urn:cite:perseus:flcimg.142> rdf:label " " .
+<urn:cite:perseus:flcimg.142> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.142> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.142> .
+<urn:cite:perseus:flcimg.143> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.143> .
+<urn:cite:perseus:flcimg.143> rdf:label " " .
+<urn:cite:perseus:flcimg.143> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.143> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.143> .
+<urn:cite:perseus:flcimg.144> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.144> .
+<urn:cite:perseus:flcimg.144> rdf:label " " .
+<urn:cite:perseus:flcimg.144> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.144> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.144> .
+<urn:cite:perseus:flcimg.145> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.145> .
+<urn:cite:perseus:flcimg.145> rdf:label " " .
+<urn:cite:perseus:flcimg.145> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.145> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.145> .
+<urn:cite:perseus:flcimg.146> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.146> .
+<urn:cite:perseus:flcimg.146> rdf:label " " .
+<urn:cite:perseus:flcimg.146> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.146> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.146> .
+<urn:cite:perseus:flcimg.147> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.147> .
+<urn:cite:perseus:flcimg.147> rdf:label " " .
+<urn:cite:perseus:flcimg.147> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.147> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.147> .
+<urn:cite:perseus:flcimg.148> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.148> .
+<urn:cite:perseus:flcimg.148> rdf:label " " .
+<urn:cite:perseus:flcimg.148> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.148> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.148> .
+<urn:cite:perseus:flcimg.149> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.149> .
+<urn:cite:perseus:flcimg.149> rdf:label " " .
+<urn:cite:perseus:flcimg.149> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.149> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.149> .
+<urn:cite:perseus:flcimg.15> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.15> .
+<urn:cite:perseus:flcimg.15> rdf:label " " .
+<urn:cite:perseus:flcimg.15> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.150> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.150> .
+<urn:cite:perseus:flcimg.150> rdf:label " " .
+<urn:cite:perseus:flcimg.150> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.150> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.150> .
+<urn:cite:perseus:flcimg.151> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.151> .
+<urn:cite:perseus:flcimg.151> rdf:label " " .
+<urn:cite:perseus:flcimg.151> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.151> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.151> .
+<urn:cite:perseus:flcimg.152> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.152> .
+<urn:cite:perseus:flcimg.152> rdf:label " " .
+<urn:cite:perseus:flcimg.152> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.152> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.152> .
+<urn:cite:perseus:flcimg.153> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.153> .
+<urn:cite:perseus:flcimg.153> rdf:label " " .
+<urn:cite:perseus:flcimg.153> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.153> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.153> .
+<urn:cite:perseus:flcimg.154> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.154> .
+<urn:cite:perseus:flcimg.154> rdf:label " " .
+<urn:cite:perseus:flcimg.154> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.154> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.154> .
+<urn:cite:perseus:flcimg.155> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.155> .
+<urn:cite:perseus:flcimg.155> rdf:label " " .
+<urn:cite:perseus:flcimg.155> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.155> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.155> .
+<urn:cite:perseus:flcimg.156> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.156> .
+<urn:cite:perseus:flcimg.156> rdf:label " " .
+<urn:cite:perseus:flcimg.156> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.156> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.156> .
+<urn:cite:perseus:flcimg.157> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.157> .
+<urn:cite:perseus:flcimg.157> rdf:label " " .
+<urn:cite:perseus:flcimg.157> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.157> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.157> .
+<urn:cite:perseus:flcimg.158> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.158> .
+<urn:cite:perseus:flcimg.158> rdf:label " " .
+<urn:cite:perseus:flcimg.158> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.158> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.158> .
+<urn:cite:perseus:flcimg.159> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.159> .
+<urn:cite:perseus:flcimg.159> rdf:label " " .
+<urn:cite:perseus:flcimg.159> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.159> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.159> .
+<urn:cite:perseus:flcimg.16> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.16> .
+<urn:cite:perseus:flcimg.16> rdf:label " " .
+<urn:cite:perseus:flcimg.16> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.160> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.160> .
+<urn:cite:perseus:flcimg.160> rdf:label " " .
+<urn:cite:perseus:flcimg.160> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.160> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.160> .
+<urn:cite:perseus:flcimg.161> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.161> .
+<urn:cite:perseus:flcimg.161> rdf:label " " .
+<urn:cite:perseus:flcimg.161> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.161> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.161> .
+<urn:cite:perseus:flcimg.162> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.162> .
+<urn:cite:perseus:flcimg.162> rdf:label " " .
+<urn:cite:perseus:flcimg.162> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.162> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.162> .
+<urn:cite:perseus:flcimg.163> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.163> .
+<urn:cite:perseus:flcimg.163> rdf:label " " .
+<urn:cite:perseus:flcimg.163> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.163> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.163> .
+<urn:cite:perseus:flcimg.164> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.164> .
+<urn:cite:perseus:flcimg.164> rdf:label " " .
+<urn:cite:perseus:flcimg.164> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.164> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.164> .
+<urn:cite:perseus:flcimg.165> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.165> .
+<urn:cite:perseus:flcimg.165> rdf:label " " .
+<urn:cite:perseus:flcimg.165> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.165> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.165> .
+<urn:cite:perseus:flcimg.166> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.166> .
+<urn:cite:perseus:flcimg.166> rdf:label " " .
+<urn:cite:perseus:flcimg.166> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.166> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.166> .
+<urn:cite:perseus:flcimg.167> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.167> .
+<urn:cite:perseus:flcimg.167> rdf:label " " .
+<urn:cite:perseus:flcimg.167> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.167> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.167> .
+<urn:cite:perseus:flcimg.168> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.168> .
+<urn:cite:perseus:flcimg.168> rdf:label " " .
+<urn:cite:perseus:flcimg.168> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.168> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.168> .
+<urn:cite:perseus:flcimg.169> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.169> .
+<urn:cite:perseus:flcimg.169> rdf:label " " .
+<urn:cite:perseus:flcimg.169> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.169> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.169> .
+<urn:cite:perseus:flcimg.17> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.17> .
+<urn:cite:perseus:flcimg.17> rdf:label " " .
+<urn:cite:perseus:flcimg.17> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.170> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.170> .
+<urn:cite:perseus:flcimg.170> rdf:label " " .
+<urn:cite:perseus:flcimg.170> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.170> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.170> .
+<urn:cite:perseus:flcimg.171> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.171> .
+<urn:cite:perseus:flcimg.171> rdf:label " " .
+<urn:cite:perseus:flcimg.171> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.171> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.171> .
+<urn:cite:perseus:flcimg.172> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.172> .
+<urn:cite:perseus:flcimg.172> rdf:label " " .
+<urn:cite:perseus:flcimg.172> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.172> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.172> .
+<urn:cite:perseus:flcimg.173> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.173> .
+<urn:cite:perseus:flcimg.173> rdf:label " " .
+<urn:cite:perseus:flcimg.173> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.173> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.173> .
+<urn:cite:perseus:flcimg.174> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.174> .
+<urn:cite:perseus:flcimg.174> rdf:label " " .
+<urn:cite:perseus:flcimg.174> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.174> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.174> .
+<urn:cite:perseus:flcimg.175> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.175> .
+<urn:cite:perseus:flcimg.175> rdf:label " " .
+<urn:cite:perseus:flcimg.175> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.175> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.175> .
+<urn:cite:perseus:flcimg.176> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.176> .
+<urn:cite:perseus:flcimg.176> rdf:label " " .
+<urn:cite:perseus:flcimg.176> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.176> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.176> .
+<urn:cite:perseus:flcimg.177> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.177> .
+<urn:cite:perseus:flcimg.177> rdf:label " " .
+<urn:cite:perseus:flcimg.177> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.177> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.177> .
+<urn:cite:perseus:flcimg.178> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.178> .
+<urn:cite:perseus:flcimg.178> rdf:label " " .
+<urn:cite:perseus:flcimg.178> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.178> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.178> .
+<urn:cite:perseus:flcimg.179> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.179> .
+<urn:cite:perseus:flcimg.179> rdf:label " " .
+<urn:cite:perseus:flcimg.179> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.179> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.179> .
+<urn:cite:perseus:flcimg.18> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.18> .
+<urn:cite:perseus:flcimg.18> rdf:label " " .
+<urn:cite:perseus:flcimg.18> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.180> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.180> .
+<urn:cite:perseus:flcimg.180> rdf:label " " .
+<urn:cite:perseus:flcimg.180> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.180> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.180> .
+<urn:cite:perseus:flcimg.181> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.181> .
+<urn:cite:perseus:flcimg.181> rdf:label " " .
+<urn:cite:perseus:flcimg.181> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.181> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.181> .
+<urn:cite:perseus:flcimg.182> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.182> .
+<urn:cite:perseus:flcimg.182> rdf:label " " .
+<urn:cite:perseus:flcimg.182> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.182> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.182> .
+<urn:cite:perseus:flcimg.183> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.183> .
+<urn:cite:perseus:flcimg.183> rdf:label " " .
+<urn:cite:perseus:flcimg.183> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.183> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.183> .
+<urn:cite:perseus:flcimg.184> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.184> .
+<urn:cite:perseus:flcimg.184> rdf:label " " .
+<urn:cite:perseus:flcimg.184> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.184> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.184> .
+<urn:cite:perseus:flcimg.185> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.185> .
+<urn:cite:perseus:flcimg.185> rdf:label " " .
+<urn:cite:perseus:flcimg.185> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.185> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.185> .
+<urn:cite:perseus:flcimg.186> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.186> .
+<urn:cite:perseus:flcimg.186> rdf:label " " .
+<urn:cite:perseus:flcimg.186> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.186> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.186> .
+<urn:cite:perseus:flcimg.187> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.187> .
+<urn:cite:perseus:flcimg.187> rdf:label " " .
+<urn:cite:perseus:flcimg.187> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.187> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.187> .
+<urn:cite:perseus:flcimg.188> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.188> .
+<urn:cite:perseus:flcimg.188> rdf:label " " .
+<urn:cite:perseus:flcimg.188> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.188> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.188> .
+<urn:cite:perseus:flcimg.189> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.189> .
+<urn:cite:perseus:flcimg.189> rdf:label " " .
+<urn:cite:perseus:flcimg.189> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.189> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.189> .
+<urn:cite:perseus:flcimg.19> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.19> .
+<urn:cite:perseus:flcimg.19> rdf:label " " .
+<urn:cite:perseus:flcimg.19> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.190> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.190> .
+<urn:cite:perseus:flcimg.190> rdf:label " " .
+<urn:cite:perseus:flcimg.190> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.190> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.190> .
+<urn:cite:perseus:flcimg.191> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.191> .
+<urn:cite:perseus:flcimg.191> rdf:label " " .
+<urn:cite:perseus:flcimg.191> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.191> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.191> .
+<urn:cite:perseus:flcimg.192> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.192> .
+<urn:cite:perseus:flcimg.192> rdf:label " " .
+<urn:cite:perseus:flcimg.192> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.192> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.192> .
+<urn:cite:perseus:flcimg.193> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.193> .
+<urn:cite:perseus:flcimg.193> rdf:label " " .
+<urn:cite:perseus:flcimg.193> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.193> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.193> .
+<urn:cite:perseus:flcimg.194> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.194> .
+<urn:cite:perseus:flcimg.194> rdf:label " " .
+<urn:cite:perseus:flcimg.194> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.194> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.194> .
+<urn:cite:perseus:flcimg.195> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.195> .
+<urn:cite:perseus:flcimg.195> rdf:label " " .
+<urn:cite:perseus:flcimg.195> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.195> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.195> .
+<urn:cite:perseus:flcimg.196> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.196> .
+<urn:cite:perseus:flcimg.196> rdf:label " " .
+<urn:cite:perseus:flcimg.196> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.196> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.196> .
+<urn:cite:perseus:flcimg.197> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.197> .
+<urn:cite:perseus:flcimg.197> rdf:label " " .
+<urn:cite:perseus:flcimg.197> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.197> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.197> .
+<urn:cite:perseus:flcimg.198> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.198> .
+<urn:cite:perseus:flcimg.198> rdf:label " " .
+<urn:cite:perseus:flcimg.198> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.198> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.198> .
+<urn:cite:perseus:flcimg.199> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.199> .
+<urn:cite:perseus:flcimg.199> rdf:label " " .
+<urn:cite:perseus:flcimg.199> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.199> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.199> .
+<urn:cite:perseus:flcimg.2> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.2> .
+<urn:cite:perseus:flcimg.2> rdf:label " " .
+<urn:cite:perseus:flcimg.2> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.20> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.20> .
+<urn:cite:perseus:flcimg.20> rdf:label " " .
+<urn:cite:perseus:flcimg.20> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.200> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.200> .
+<urn:cite:perseus:flcimg.200> rdf:label " " .
+<urn:cite:perseus:flcimg.200> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.200> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.200> .
+<urn:cite:perseus:flcimg.201> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.201> .
+<urn:cite:perseus:flcimg.201> rdf:label " " .
+<urn:cite:perseus:flcimg.201> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.201> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.201> .
+<urn:cite:perseus:flcimg.202> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.202> .
+<urn:cite:perseus:flcimg.202> rdf:label " " .
+<urn:cite:perseus:flcimg.202> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.202> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.202> .
+<urn:cite:perseus:flcimg.203> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.203> .
+<urn:cite:perseus:flcimg.203> rdf:label " " .
+<urn:cite:perseus:flcimg.203> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.203> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.203> .
+<urn:cite:perseus:flcimg.204> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.204> .
+<urn:cite:perseus:flcimg.204> rdf:label " " .
+<urn:cite:perseus:flcimg.204> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.204> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.204> .
+<urn:cite:perseus:flcimg.205> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.205> .
+<urn:cite:perseus:flcimg.205> rdf:label " " .
+<urn:cite:perseus:flcimg.205> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.205> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.205> .
+<urn:cite:perseus:flcimg.206> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.206> .
+<urn:cite:perseus:flcimg.206> rdf:label " " .
+<urn:cite:perseus:flcimg.206> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.206> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.206> .
+<urn:cite:perseus:flcimg.207> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.207> .
+<urn:cite:perseus:flcimg.207> rdf:label " " .
+<urn:cite:perseus:flcimg.207> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.207> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.207> .
+<urn:cite:perseus:flcimg.208> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.208> .
+<urn:cite:perseus:flcimg.208> rdf:label " " .
+<urn:cite:perseus:flcimg.208> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.208> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.208> .
+<urn:cite:perseus:flcimg.209> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.209> .
+<urn:cite:perseus:flcimg.209> rdf:label " " .
+<urn:cite:perseus:flcimg.209> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.209> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.209> .
+<urn:cite:perseus:flcimg.21> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.21> .
+<urn:cite:perseus:flcimg.21> rdf:label " " .
+<urn:cite:perseus:flcimg.21> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.21> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.21> .
+<urn:cite:perseus:flcimg.210> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.210> .
+<urn:cite:perseus:flcimg.210> rdf:label " " .
+<urn:cite:perseus:flcimg.210> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.210> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.210> .
+<urn:cite:perseus:flcimg.211> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.211> .
+<urn:cite:perseus:flcimg.211> rdf:label " " .
+<urn:cite:perseus:flcimg.211> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.211> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.211> .
+<urn:cite:perseus:flcimg.212> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.212> .
+<urn:cite:perseus:flcimg.212> rdf:label " " .
+<urn:cite:perseus:flcimg.212> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.212> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.212> .
+<urn:cite:perseus:flcimg.213> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.213> .
+<urn:cite:perseus:flcimg.213> rdf:label " " .
+<urn:cite:perseus:flcimg.213> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.213> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.213> .
+<urn:cite:perseus:flcimg.214> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.214> .
+<urn:cite:perseus:flcimg.214> rdf:label " " .
+<urn:cite:perseus:flcimg.214> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.214> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.214> .
+<urn:cite:perseus:flcimg.215> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.215> .
+<urn:cite:perseus:flcimg.215> rdf:label " " .
+<urn:cite:perseus:flcimg.215> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.215> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.215> .
+<urn:cite:perseus:flcimg.216> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.216> .
+<urn:cite:perseus:flcimg.216> rdf:label " " .
+<urn:cite:perseus:flcimg.216> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.216> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.216> .
+<urn:cite:perseus:flcimg.217> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.217> .
+<urn:cite:perseus:flcimg.217> rdf:label " " .
+<urn:cite:perseus:flcimg.217> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.217> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.217> .
+<urn:cite:perseus:flcimg.218> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.218> .
+<urn:cite:perseus:flcimg.218> rdf:label " " .
+<urn:cite:perseus:flcimg.218> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.218> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.218> .
+<urn:cite:perseus:flcimg.219> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.219> .
+<urn:cite:perseus:flcimg.219> rdf:label " " .
+<urn:cite:perseus:flcimg.219> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.219> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.219> .
+<urn:cite:perseus:flcimg.22> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.22> .
+<urn:cite:perseus:flcimg.22> rdf:label " " .
+<urn:cite:perseus:flcimg.22> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.22> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.22> .
+<urn:cite:perseus:flcimg.220> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.220> .
+<urn:cite:perseus:flcimg.220> rdf:label " " .
+<urn:cite:perseus:flcimg.220> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.220> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.220> .
+<urn:cite:perseus:flcimg.221> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.221> .
+<urn:cite:perseus:flcimg.221> rdf:label " " .
+<urn:cite:perseus:flcimg.221> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.221> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.221> .
+<urn:cite:perseus:flcimg.222> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.222> .
+<urn:cite:perseus:flcimg.222> rdf:label " " .
+<urn:cite:perseus:flcimg.222> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.222> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.222> .
+<urn:cite:perseus:flcimg.223> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.223> .
+<urn:cite:perseus:flcimg.223> rdf:label " " .
+<urn:cite:perseus:flcimg.223> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.223> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.223> .
+<urn:cite:perseus:flcimg.224> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.224> .
+<urn:cite:perseus:flcimg.224> rdf:label " " .
+<urn:cite:perseus:flcimg.224> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.224> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.224> .
+<urn:cite:perseus:flcimg.225> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.225> .
+<urn:cite:perseus:flcimg.225> rdf:label " " .
+<urn:cite:perseus:flcimg.225> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.225> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.225> .
+<urn:cite:perseus:flcimg.226> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.226> .
+<urn:cite:perseus:flcimg.226> rdf:label " " .
+<urn:cite:perseus:flcimg.226> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.226> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.226> .
+<urn:cite:perseus:flcimg.227> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.227> .
+<urn:cite:perseus:flcimg.227> rdf:label " " .
+<urn:cite:perseus:flcimg.227> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.227> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.227> .
+<urn:cite:perseus:flcimg.228> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.228> .
+<urn:cite:perseus:flcimg.228> rdf:label " " .
+<urn:cite:perseus:flcimg.228> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.228> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.228> .
+<urn:cite:perseus:flcimg.229> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.229> .
+<urn:cite:perseus:flcimg.229> rdf:label " " .
+<urn:cite:perseus:flcimg.229> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.229> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:8> crm:P138i_has_representation <urn:cite:perseus:flcimg.229> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:7> crm:P138i_has_representation <urn:cite:perseus:flcimg.229> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:8> crm:P138i_has_representation <urn:cite:perseus:flcimg.229> .
+<urn:cite:perseus:flcimg.23> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.23> .
+<urn:cite:perseus:flcimg.23> rdf:label " " .
+<urn:cite:perseus:flcimg.23> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.23> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.23> .
+<urn:cite:perseus:flcimg.230> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.230> .
+<urn:cite:perseus:flcimg.230> rdf:label " " .
+<urn:cite:perseus:flcimg.230> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:8> crm:P138i_has_representation <urn:cite:perseus:flcimg.230> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:8> crm:P138i_has_representation <urn:cite:perseus:flcimg.230> .
+<urn:cite:perseus:flcimg.231> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.231> .
+<urn:cite:perseus:flcimg.231> rdf:label " " .
+<urn:cite:perseus:flcimg.231> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:8> crm:P138i_has_representation <urn:cite:perseus:flcimg.231> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:8> crm:P138i_has_representation <urn:cite:perseus:flcimg.231> .
+<urn:cite:perseus:flcimg.232> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.232> .
+<urn:cite:perseus:flcimg.232> rdf:label " " .
+<urn:cite:perseus:flcimg.232> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:8> crm:P138i_has_representation <urn:cite:perseus:flcimg.232> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.232> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:8> crm:P138i_has_representation <urn:cite:perseus:flcimg.232> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.232> .
+<urn:cite:perseus:flcimg.233> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.233> .
+<urn:cite:perseus:flcimg.233> rdf:label " " .
+<urn:cite:perseus:flcimg.233> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.233> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.233> .
+<urn:cite:perseus:flcimg.234> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.234> .
+<urn:cite:perseus:flcimg.234> rdf:label " " .
+<urn:cite:perseus:flcimg.234> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.234> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.234> .
+<urn:cite:perseus:flcimg.235> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.235> .
+<urn:cite:perseus:flcimg.235> rdf:label " " .
+<urn:cite:perseus:flcimg.235> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.235> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.235> .
+<urn:cite:perseus:flcimg.236> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.236> .
+<urn:cite:perseus:flcimg.236> rdf:label " " .
+<urn:cite:perseus:flcimg.236> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.236> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.236> .
+<urn:cite:perseus:flcimg.237> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.237> .
+<urn:cite:perseus:flcimg.237> rdf:label " " .
+<urn:cite:perseus:flcimg.237> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.237> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.237> .
+<urn:cite:perseus:flcimg.238> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.238> .
+<urn:cite:perseus:flcimg.238> rdf:label " " .
+<urn:cite:perseus:flcimg.238> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.238> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.238> .
+<urn:cite:perseus:flcimg.239> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.239> .
+<urn:cite:perseus:flcimg.239> rdf:label " " .
+<urn:cite:perseus:flcimg.239> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.239> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.239> .
+<urn:cite:perseus:flcimg.24> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.24> .
+<urn:cite:perseus:flcimg.24> rdf:label " " .
+<urn:cite:perseus:flcimg.24> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.24> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.24> .
+<urn:cite:perseus:flcimg.240> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.240> .
+<urn:cite:perseus:flcimg.240> rdf:label " " .
+<urn:cite:perseus:flcimg.240> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.240> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.240> .
+<urn:cite:perseus:flcimg.241> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.241> .
+<urn:cite:perseus:flcimg.241> rdf:label " " .
+<urn:cite:perseus:flcimg.241> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.241> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.241> .
+<urn:cite:perseus:flcimg.242> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.242> .
+<urn:cite:perseus:flcimg.242> rdf:label " " .
+<urn:cite:perseus:flcimg.242> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.242> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:10> crm:P138i_has_representation <urn:cite:perseus:flcimg.242> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:9> crm:P138i_has_representation <urn:cite:perseus:flcimg.242> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:10> crm:P138i_has_representation <urn:cite:perseus:flcimg.242> .
+<urn:cite:perseus:flcimg.243> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.243> .
+<urn:cite:perseus:flcimg.243> rdf:label " " .
+<urn:cite:perseus:flcimg.243> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:10> crm:P138i_has_representation <urn:cite:perseus:flcimg.243> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:10> crm:P138i_has_representation <urn:cite:perseus:flcimg.243> .
+<urn:cite:perseus:flcimg.244> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.244> .
+<urn:cite:perseus:flcimg.244> rdf:label " " .
+<urn:cite:perseus:flcimg.244> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:10> crm:P138i_has_representation <urn:cite:perseus:flcimg.244> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:10> crm:P138i_has_representation <urn:cite:perseus:flcimg.244> .
+<urn:cite:perseus:flcimg.245> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.245> .
+<urn:cite:perseus:flcimg.245> rdf:label " " .
+<urn:cite:perseus:flcimg.245> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:10> crm:P138i_has_representation <urn:cite:perseus:flcimg.245> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:10> crm:P138i_has_representation <urn:cite:perseus:flcimg.245> .
+<urn:cite:perseus:flcimg.246> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.246> .
+<urn:cite:perseus:flcimg.246> rdf:label " " .
+<urn:cite:perseus:flcimg.246> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:10> crm:P138i_has_representation <urn:cite:perseus:flcimg.246> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:10> crm:P138i_has_representation <urn:cite:perseus:flcimg.246> .
+<urn:cite:perseus:flcimg.247> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.247> .
+<urn:cite:perseus:flcimg.247> rdf:label " " .
+<urn:cite:perseus:flcimg.247> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:10> crm:P138i_has_representation <urn:cite:perseus:flcimg.247> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:10> crm:P138i_has_representation <urn:cite:perseus:flcimg.247> .
+<urn:cite:perseus:flcimg.248> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.248> .
+<urn:cite:perseus:flcimg.248> rdf:label " " .
+<urn:cite:perseus:flcimg.248> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:10> crm:P138i_has_representation <urn:cite:perseus:flcimg.248> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:11> crm:P138i_has_representation <urn:cite:perseus:flcimg.248> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:10> crm:P138i_has_representation <urn:cite:perseus:flcimg.248> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:11> crm:P138i_has_representation <urn:cite:perseus:flcimg.248> .
+<urn:cite:perseus:flcimg.249> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.249> .
+<urn:cite:perseus:flcimg.249> rdf:label " " .
+<urn:cite:perseus:flcimg.249> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:11> crm:P138i_has_representation <urn:cite:perseus:flcimg.249> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:11> crm:P138i_has_representation <urn:cite:perseus:flcimg.249> .
+<urn:cite:perseus:flcimg.25> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.25> .
+<urn:cite:perseus:flcimg.25> rdf:label " " .
+<urn:cite:perseus:flcimg.25> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.25> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.25> .
+<urn:cite:perseus:flcimg.250> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.250> .
+<urn:cite:perseus:flcimg.250> rdf:label " " .
+<urn:cite:perseus:flcimg.250> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:11> crm:P138i_has_representation <urn:cite:perseus:flcimg.250> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:11> crm:P138i_has_representation <urn:cite:perseus:flcimg.250> .
+<urn:cite:perseus:flcimg.251> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.251> .
+<urn:cite:perseus:flcimg.251> rdf:label " " .
+<urn:cite:perseus:flcimg.251> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:11> crm:P138i_has_representation <urn:cite:perseus:flcimg.251> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:12> crm:P138i_has_representation <urn:cite:perseus:flcimg.251> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:11> crm:P138i_has_representation <urn:cite:perseus:flcimg.251> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:12> crm:P138i_has_representation <urn:cite:perseus:flcimg.251> .
+<urn:cite:perseus:flcimg.252> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.252> .
+<urn:cite:perseus:flcimg.252> rdf:label " " .
+<urn:cite:perseus:flcimg.252> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:12> crm:P138i_has_representation <urn:cite:perseus:flcimg.252> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:12> crm:P138i_has_representation <urn:cite:perseus:flcimg.252> .
+<urn:cite:perseus:flcimg.253> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.253> .
+<urn:cite:perseus:flcimg.253> rdf:label " " .
+<urn:cite:perseus:flcimg.253> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:12> crm:P138i_has_representation <urn:cite:perseus:flcimg.253> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:12> crm:P138i_has_representation <urn:cite:perseus:flcimg.253> .
+<urn:cite:perseus:flcimg.254> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.254> .
+<urn:cite:perseus:flcimg.254> rdf:label " " .
+<urn:cite:perseus:flcimg.254> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:13> crm:P138i_has_representation <urn:cite:perseus:flcimg.254> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:13> crm:P138i_has_representation <urn:cite:perseus:flcimg.254> .
+<urn:cite:perseus:flcimg.255> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.255> .
+<urn:cite:perseus:flcimg.255> rdf:label " " .
+<urn:cite:perseus:flcimg.255> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:13> crm:P138i_has_representation <urn:cite:perseus:flcimg.255> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:13> crm:P138i_has_representation <urn:cite:perseus:flcimg.255> .
+<urn:cite:perseus:flcimg.256> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.256> .
+<urn:cite:perseus:flcimg.256> rdf:label " " .
+<urn:cite:perseus:flcimg.256> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:13> crm:P138i_has_representation <urn:cite:perseus:flcimg.256> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:13> crm:P138i_has_representation <urn:cite:perseus:flcimg.256> .
+<urn:cite:perseus:flcimg.257> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.257> .
+<urn:cite:perseus:flcimg.257> rdf:label " " .
+<urn:cite:perseus:flcimg.257> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:13> crm:P138i_has_representation <urn:cite:perseus:flcimg.257> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:14> crm:P138i_has_representation <urn:cite:perseus:flcimg.257> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:13> crm:P138i_has_representation <urn:cite:perseus:flcimg.257> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:14> crm:P138i_has_representation <urn:cite:perseus:flcimg.257> .
+<urn:cite:perseus:flcimg.258> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.258> .
+<urn:cite:perseus:flcimg.258> rdf:label " " .
+<urn:cite:perseus:flcimg.258> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:14> crm:P138i_has_representation <urn:cite:perseus:flcimg.258> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:14> crm:P138i_has_representation <urn:cite:perseus:flcimg.258> .
+<urn:cite:perseus:flcimg.259> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.259> .
+<urn:cite:perseus:flcimg.259> rdf:label " " .
+<urn:cite:perseus:flcimg.259> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:14> crm:P138i_has_representation <urn:cite:perseus:flcimg.259> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:14> crm:P138i_has_representation <urn:cite:perseus:flcimg.259> .
+<urn:cite:perseus:flcimg.26> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.26> .
+<urn:cite:perseus:flcimg.26> rdf:label " " .
+<urn:cite:perseus:flcimg.26> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.26> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.26> .
+<urn:cite:perseus:flcimg.260> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.260> .
+<urn:cite:perseus:flcimg.260> rdf:label " " .
+<urn:cite:perseus:flcimg.260> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:14> crm:P138i_has_representation <urn:cite:perseus:flcimg.260> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:15> crm:P138i_has_representation <urn:cite:perseus:flcimg.260> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:14> crm:P138i_has_representation <urn:cite:perseus:flcimg.260> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:15> crm:P138i_has_representation <urn:cite:perseus:flcimg.260> .
+<urn:cite:perseus:flcimg.261> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.261> .
+<urn:cite:perseus:flcimg.261> rdf:label " " .
+<urn:cite:perseus:flcimg.261> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:15> crm:P138i_has_representation <urn:cite:perseus:flcimg.261> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:15> crm:P138i_has_representation <urn:cite:perseus:flcimg.261> .
+<urn:cite:perseus:flcimg.262> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.262> .
+<urn:cite:perseus:flcimg.262> rdf:label " " .
+<urn:cite:perseus:flcimg.262> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:15> crm:P138i_has_representation <urn:cite:perseus:flcimg.262> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:15> crm:P138i_has_representation <urn:cite:perseus:flcimg.262> .
+<urn:cite:perseus:flcimg.263> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.263> .
+<urn:cite:perseus:flcimg.263> rdf:label " " .
+<urn:cite:perseus:flcimg.263> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:15> crm:P138i_has_representation <urn:cite:perseus:flcimg.263> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.263> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:15> crm:P138i_has_representation <urn:cite:perseus:flcimg.263> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.263> .
+<urn:cite:perseus:flcimg.264> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.264> .
+<urn:cite:perseus:flcimg.264> rdf:label " " .
+<urn:cite:perseus:flcimg.264> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.264> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.264> .
+<urn:cite:perseus:flcimg.265> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.265> .
+<urn:cite:perseus:flcimg.265> rdf:label " " .
+<urn:cite:perseus:flcimg.265> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.265> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.265> .
+<urn:cite:perseus:flcimg.266> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.266> .
+<urn:cite:perseus:flcimg.266> rdf:label " " .
+<urn:cite:perseus:flcimg.266> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.266> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.266> .
+<urn:cite:perseus:flcimg.267> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.267> .
+<urn:cite:perseus:flcimg.267> rdf:label " " .
+<urn:cite:perseus:flcimg.267> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.267> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.267> .
+<urn:cite:perseus:flcimg.268> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.268> .
+<urn:cite:perseus:flcimg.268> rdf:label " " .
+<urn:cite:perseus:flcimg.268> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.268> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.268> .
+<urn:cite:perseus:flcimg.269> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.269> .
+<urn:cite:perseus:flcimg.269> rdf:label " " .
+<urn:cite:perseus:flcimg.269> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.269> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.269> .
+<urn:cite:perseus:flcimg.27> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.27> .
+<urn:cite:perseus:flcimg.27> rdf:label " " .
+<urn:cite:perseus:flcimg.27> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.27> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.27> .
+<urn:cite:perseus:flcimg.270> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.270> .
+<urn:cite:perseus:flcimg.270> rdf:label " " .
+<urn:cite:perseus:flcimg.270> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.270> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.270> .
+<urn:cite:perseus:flcimg.271> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.271> .
+<urn:cite:perseus:flcimg.271> rdf:label " " .
+<urn:cite:perseus:flcimg.271> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.271> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:16> crm:P138i_has_representation <urn:cite:perseus:flcimg.271> .
+<urn:cite:perseus:flcimg.272> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.272> .
+<urn:cite:perseus:flcimg.272> rdf:label " " .
+<urn:cite:perseus:flcimg.272> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:17> crm:P138i_has_representation <urn:cite:perseus:flcimg.272> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:17> crm:P138i_has_representation <urn:cite:perseus:flcimg.272> .
+<urn:cite:perseus:flcimg.273> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.273> .
+<urn:cite:perseus:flcimg.273> rdf:label " " .
+<urn:cite:perseus:flcimg.273> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:17> crm:P138i_has_representation <urn:cite:perseus:flcimg.273> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:17> crm:P138i_has_representation <urn:cite:perseus:flcimg.273> .
+<urn:cite:perseus:flcimg.274> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.274> .
+<urn:cite:perseus:flcimg.274> rdf:label " " .
+<urn:cite:perseus:flcimg.274> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:17> crm:P138i_has_representation <urn:cite:perseus:flcimg.274> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:18> crm:P138i_has_representation <urn:cite:perseus:flcimg.274> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:17> crm:P138i_has_representation <urn:cite:perseus:flcimg.274> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:18> crm:P138i_has_representation <urn:cite:perseus:flcimg.274> .
+<urn:cite:perseus:flcimg.275> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.275> .
+<urn:cite:perseus:flcimg.275> rdf:label " " .
+<urn:cite:perseus:flcimg.275> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:18> crm:P138i_has_representation <urn:cite:perseus:flcimg.275> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:19> crm:P138i_has_representation <urn:cite:perseus:flcimg.275> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:18> crm:P138i_has_representation <urn:cite:perseus:flcimg.275> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:19> crm:P138i_has_representation <urn:cite:perseus:flcimg.275> .
+<urn:cite:perseus:flcimg.276> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.276> .
+<urn:cite:perseus:flcimg.276> rdf:label " " .
+<urn:cite:perseus:flcimg.276> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:19> crm:P138i_has_representation <urn:cite:perseus:flcimg.276> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:19> crm:P138i_has_representation <urn:cite:perseus:flcimg.276> .
+<urn:cite:perseus:flcimg.277> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.277> .
+<urn:cite:perseus:flcimg.277> rdf:label " " .
+<urn:cite:perseus:flcimg.277> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:19-urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.277> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:19-urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.277> .
+<urn:cite:perseus:flcimg.278> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.278> .
+<urn:cite:perseus:flcimg.278> rdf:label " " .
+<urn:cite:perseus:flcimg.278> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:19-urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.278> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:19-urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.278> .
+<urn:cite:perseus:flcimg.279> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.279> .
+<urn:cite:perseus:flcimg.279> rdf:label " " .
+<urn:cite:perseus:flcimg.279> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.279> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.279> .
+<urn:cite:perseus:flcimg.28> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.28> .
+<urn:cite:perseus:flcimg.28> rdf:label " " .
+<urn:cite:perseus:flcimg.28> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.28> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.28> .
+<urn:cite:perseus:flcimg.280> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.280> .
+<urn:cite:perseus:flcimg.280> rdf:label " " .
+<urn:cite:perseus:flcimg.280> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.280> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.280> .
+<urn:cite:perseus:flcimg.281> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.281> .
+<urn:cite:perseus:flcimg.281> rdf:label " " .
+<urn:cite:perseus:flcimg.281> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.281> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.281> .
+<urn:cite:perseus:flcimg.282> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.282> .
+<urn:cite:perseus:flcimg.282> rdf:label " " .
+<urn:cite:perseus:flcimg.282> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.282> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.282> .
+<urn:cite:perseus:flcimg.283> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.283> .
+<urn:cite:perseus:flcimg.283> rdf:label " " .
+<urn:cite:perseus:flcimg.283> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.283> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.283> .
+<urn:cite:perseus:flcimg.284> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.284> .
+<urn:cite:perseus:flcimg.284> rdf:label " " .
+<urn:cite:perseus:flcimg.284> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.284> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.284> .
+<urn:cite:perseus:flcimg.285> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.285> .
+<urn:cite:perseus:flcimg.285> rdf:label " " .
+<urn:cite:perseus:flcimg.285> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.285> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.285> .
+<urn:cite:perseus:flcimg.286> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.286> .
+<urn:cite:perseus:flcimg.286> rdf:label " " .
+<urn:cite:perseus:flcimg.286> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.286> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.286> .
+<urn:cite:perseus:flcimg.287> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.287> .
+<urn:cite:perseus:flcimg.287> rdf:label " " .
+<urn:cite:perseus:flcimg.287> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.287> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.287> .
+<urn:cite:perseus:flcimg.288> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.288> .
+<urn:cite:perseus:flcimg.288> rdf:label " " .
+<urn:cite:perseus:flcimg.288> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.288> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.288> .
+<urn:cite:perseus:flcimg.289> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.289> .
+<urn:cite:perseus:flcimg.289> rdf:label " " .
+<urn:cite:perseus:flcimg.289> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.289> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.289> .
+<urn:cite:perseus:flcimg.29> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.29> .
+<urn:cite:perseus:flcimg.29> rdf:label " " .
+<urn:cite:perseus:flcimg.29> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.29> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.29> .
+<urn:cite:perseus:flcimg.290> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.290> .
+<urn:cite:perseus:flcimg.290> rdf:label " " .
+<urn:cite:perseus:flcimg.290> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.290> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.290> .
+<urn:cite:perseus:flcimg.291> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.291> .
+<urn:cite:perseus:flcimg.291> rdf:label " " .
+<urn:cite:perseus:flcimg.291> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.291> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.291> .
+<urn:cite:perseus:flcimg.292> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.292> .
+<urn:cite:perseus:flcimg.292> rdf:label " " .
+<urn:cite:perseus:flcimg.292> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.292> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.292> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.292> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.292> .
+<urn:cite:perseus:flcimg.293> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.293> .
+<urn:cite:perseus:flcimg.293> rdf:label " " .
+<urn:cite:perseus:flcimg.293> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.293> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.293> .
+<urn:cite:perseus:flcimg.294> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.294> .
+<urn:cite:perseus:flcimg.294> rdf:label " " .
+<urn:cite:perseus:flcimg.294> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.294> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.294> .
+<urn:cite:perseus:flcimg.295> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.295> .
+<urn:cite:perseus:flcimg.295> rdf:label " " .
+<urn:cite:perseus:flcimg.295> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.295> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.295> .
+<urn:cite:perseus:flcimg.296> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.296> .
+<urn:cite:perseus:flcimg.296> rdf:label " " .
+<urn:cite:perseus:flcimg.296> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.296> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.296> .
+<urn:cite:perseus:flcimg.297> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.297> .
+<urn:cite:perseus:flcimg.297> rdf:label " " .
+<urn:cite:perseus:flcimg.297> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.297> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.297> .
+<urn:cite:perseus:flcimg.298> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.298> .
+<urn:cite:perseus:flcimg.298> rdf:label " " .
+<urn:cite:perseus:flcimg.298> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.298> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.298> .
+<urn:cite:perseus:flcimg.299> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.299> .
+<urn:cite:perseus:flcimg.299> rdf:label " " .
+<urn:cite:perseus:flcimg.299> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.299> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.299> .
+<urn:cite:perseus:flcimg.3> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.3> .
+<urn:cite:perseus:flcimg.3> rdf:label " " .
+<urn:cite:perseus:flcimg.3> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.30> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.30> .
+<urn:cite:perseus:flcimg.30> rdf:label " " .
+<urn:cite:perseus:flcimg.30> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.30> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.30> .
+<urn:cite:perseus:flcimg.300> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.300> .
+<urn:cite:perseus:flcimg.300> rdf:label " " .
+<urn:cite:perseus:flcimg.300> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.300> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.300> .
+<urn:cite:perseus:flcimg.301> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.301> .
+<urn:cite:perseus:flcimg.301> rdf:label " " .
+<urn:cite:perseus:flcimg.301> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.301> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.301> .
+<urn:cite:perseus:flcimg.302> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.302> .
+<urn:cite:perseus:flcimg.302> rdf:label " " .
+<urn:cite:perseus:flcimg.302> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.302> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.302> .
+<urn:cite:perseus:flcimg.303> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.303> .
+<urn:cite:perseus:flcimg.303> rdf:label " " .
+<urn:cite:perseus:flcimg.303> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.303> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.303> .
+<urn:cite:perseus:flcimg.304> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.304> .
+<urn:cite:perseus:flcimg.304> rdf:label " " .
+<urn:cite:perseus:flcimg.304> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.304> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.304> .
+<urn:cite:perseus:flcimg.305> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.305> .
+<urn:cite:perseus:flcimg.305> rdf:label " " .
+<urn:cite:perseus:flcimg.305> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.305> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.305> .
+<urn:cite:perseus:flcimg.306> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.306> .
+<urn:cite:perseus:flcimg.306> rdf:label " " .
+<urn:cite:perseus:flcimg.306> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.306> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.306> .
+<urn:cite:perseus:flcimg.307> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.307> .
+<urn:cite:perseus:flcimg.307> rdf:label " " .
+<urn:cite:perseus:flcimg.307> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.307> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:21> crm:P138i_has_representation <urn:cite:perseus:flcimg.307> .
+<urn:cite:perseus:flcimg.308> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.308> .
+<urn:cite:perseus:flcimg.308> rdf:label " " .
+<urn:cite:perseus:flcimg.308> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.308> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.308> .
+<urn:cite:perseus:flcimg.309> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.309> .
+<urn:cite:perseus:flcimg.309> rdf:label " " .
+<urn:cite:perseus:flcimg.309> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.309> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.309> .
+<urn:cite:perseus:flcimg.31> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.31> .
+<urn:cite:perseus:flcimg.31> rdf:label " " .
+<urn:cite:perseus:flcimg.31> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.31> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.31> .
+<urn:cite:perseus:flcimg.310> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.310> .
+<urn:cite:perseus:flcimg.310> rdf:label " " .
+<urn:cite:perseus:flcimg.310> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.310> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.310> .
+<urn:cite:perseus:flcimg.311> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.311> .
+<urn:cite:perseus:flcimg.311> rdf:label " " .
+<urn:cite:perseus:flcimg.311> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.311> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.311> .
+<urn:cite:perseus:flcimg.312> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.312> .
+<urn:cite:perseus:flcimg.312> rdf:label " " .
+<urn:cite:perseus:flcimg.312> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.312> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.312> .
+<urn:cite:perseus:flcimg.313> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.313> .
+<urn:cite:perseus:flcimg.313> rdf:label " " .
+<urn:cite:perseus:flcimg.313> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.313> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.313> .
+<urn:cite:perseus:flcimg.314> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.314> .
+<urn:cite:perseus:flcimg.314> rdf:label " " .
+<urn:cite:perseus:flcimg.314> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.314> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.314> .
+<urn:cite:perseus:flcimg.315> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.315> .
+<urn:cite:perseus:flcimg.315> rdf:label " " .
+<urn:cite:perseus:flcimg.315> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.315> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.315> .
+<urn:cite:perseus:flcimg.316> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.316> .
+<urn:cite:perseus:flcimg.316> rdf:label " " .
+<urn:cite:perseus:flcimg.316> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.316> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:23> crm:P138i_has_representation <urn:cite:perseus:flcimg.316> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:22> crm:P138i_has_representation <urn:cite:perseus:flcimg.316> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:23> crm:P138i_has_representation <urn:cite:perseus:flcimg.316> .
+<urn:cite:perseus:flcimg.317> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.317> .
+<urn:cite:perseus:flcimg.317> rdf:label " " .
+<urn:cite:perseus:flcimg.317> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:23> crm:P138i_has_representation <urn:cite:perseus:flcimg.317> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:23> crm:P138i_has_representation <urn:cite:perseus:flcimg.317> .
+<urn:cite:perseus:flcimg.318> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.318> .
+<urn:cite:perseus:flcimg.318> rdf:label " " .
+<urn:cite:perseus:flcimg.318> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:23> crm:P138i_has_representation <urn:cite:perseus:flcimg.318> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:23> crm:P138i_has_representation <urn:cite:perseus:flcimg.318> .
+<urn:cite:perseus:flcimg.319> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.319> .
+<urn:cite:perseus:flcimg.319> rdf:label " " .
+<urn:cite:perseus:flcimg.319> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:23> crm:P138i_has_representation <urn:cite:perseus:flcimg.319> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:23> crm:P138i_has_representation <urn:cite:perseus:flcimg.319> .
+<urn:cite:perseus:flcimg.32> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.32> .
+<urn:cite:perseus:flcimg.32> rdf:label " " .
+<urn:cite:perseus:flcimg.32> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.32> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.32> .
+<urn:cite:perseus:flcimg.320> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.320> .
+<urn:cite:perseus:flcimg.320> rdf:label " " .
+<urn:cite:perseus:flcimg.320> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:23> crm:P138i_has_representation <urn:cite:perseus:flcimg.320> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:23> crm:P138i_has_representation <urn:cite:perseus:flcimg.320> .
+<urn:cite:perseus:flcimg.321> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.321> .
+<urn:cite:perseus:flcimg.321> rdf:label " " .
+<urn:cite:perseus:flcimg.321> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:23> crm:P138i_has_representation <urn:cite:perseus:flcimg.321> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:23> crm:P138i_has_representation <urn:cite:perseus:flcimg.321> .
+<urn:cite:perseus:flcimg.322> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.322> .
+<urn:cite:perseus:flcimg.322> rdf:label " " .
+<urn:cite:perseus:flcimg.322> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:23> crm:P138i_has_representation <urn:cite:perseus:flcimg.322> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:24> crm:P138i_has_representation <urn:cite:perseus:flcimg.322> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:23> crm:P138i_has_representation <urn:cite:perseus:flcimg.322> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:24> crm:P138i_has_representation <urn:cite:perseus:flcimg.322> .
+<urn:cite:perseus:flcimg.323> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.323> .
+<urn:cite:perseus:flcimg.323> rdf:label " " .
+<urn:cite:perseus:flcimg.323> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:24> crm:P138i_has_representation <urn:cite:perseus:flcimg.323> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:24> crm:P138i_has_representation <urn:cite:perseus:flcimg.323> .
+<urn:cite:perseus:flcimg.324> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.324> .
+<urn:cite:perseus:flcimg.324> rdf:label " " .
+<urn:cite:perseus:flcimg.324> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:24> crm:P138i_has_representation <urn:cite:perseus:flcimg.324> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:24> crm:P138i_has_representation <urn:cite:perseus:flcimg.324> .
+<urn:cite:perseus:flcimg.325> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.325> .
+<urn:cite:perseus:flcimg.325> rdf:label " " .
+<urn:cite:perseus:flcimg.325> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:24> crm:P138i_has_representation <urn:cite:perseus:flcimg.325> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:25> crm:P138i_has_representation <urn:cite:perseus:flcimg.325> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:24> crm:P138i_has_representation <urn:cite:perseus:flcimg.325> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:25> crm:P138i_has_representation <urn:cite:perseus:flcimg.325> .
+<urn:cite:perseus:flcimg.326> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.326> .
+<urn:cite:perseus:flcimg.326> rdf:label " " .
+<urn:cite:perseus:flcimg.326> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:25> crm:P138i_has_representation <urn:cite:perseus:flcimg.326> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:25> crm:P138i_has_representation <urn:cite:perseus:flcimg.326> .
+<urn:cite:perseus:flcimg.327> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.327> .
+<urn:cite:perseus:flcimg.327> rdf:label " " .
+<urn:cite:perseus:flcimg.327> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:25> crm:P138i_has_representation <urn:cite:perseus:flcimg.327> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:25> crm:P138i_has_representation <urn:cite:perseus:flcimg.327> .
+<urn:cite:perseus:flcimg.328> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.328> .
+<urn:cite:perseus:flcimg.328> rdf:label " " .
+<urn:cite:perseus:flcimg.328> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:25> crm:P138i_has_representation <urn:cite:perseus:flcimg.328> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.328> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:25> crm:P138i_has_representation <urn:cite:perseus:flcimg.328> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.328> .
+<urn:cite:perseus:flcimg.329> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.329> .
+<urn:cite:perseus:flcimg.329> rdf:label " " .
+<urn:cite:perseus:flcimg.329> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.329> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.329> .
+<urn:cite:perseus:flcimg.33> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.33> .
+<urn:cite:perseus:flcimg.33> rdf:label " " .
+<urn:cite:perseus:flcimg.33> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.33> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.33> .
+<urn:cite:perseus:flcimg.330> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.330> .
+<urn:cite:perseus:flcimg.330> rdf:label " " .
+<urn:cite:perseus:flcimg.330> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.330> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.330> .
+<urn:cite:perseus:flcimg.331> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.331> .
+<urn:cite:perseus:flcimg.331> rdf:label " " .
+<urn:cite:perseus:flcimg.331> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.331> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.331> .
+<urn:cite:perseus:flcimg.332> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.332> .
+<urn:cite:perseus:flcimg.332> rdf:label " " .
+<urn:cite:perseus:flcimg.332> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.332> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.332> .
+<urn:cite:perseus:flcimg.333> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.333> .
+<urn:cite:perseus:flcimg.333> rdf:label " " .
+<urn:cite:perseus:flcimg.333> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.333> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.333> .
+<urn:cite:perseus:flcimg.334> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.334> .
+<urn:cite:perseus:flcimg.334> rdf:label " " .
+<urn:cite:perseus:flcimg.334> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.334> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.334> .
+<urn:cite:perseus:flcimg.335> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.335> .
+<urn:cite:perseus:flcimg.335> rdf:label " " .
+<urn:cite:perseus:flcimg.335> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.335> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.335> .
+<urn:cite:perseus:flcimg.336> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.336> .
+<urn:cite:perseus:flcimg.336> rdf:label " " .
+<urn:cite:perseus:flcimg.336> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.336> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.336> .
+<urn:cite:perseus:flcimg.337> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.337> .
+<urn:cite:perseus:flcimg.337> rdf:label " " .
+<urn:cite:perseus:flcimg.337> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.337> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.337> .
+<urn:cite:perseus:flcimg.338> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.338> .
+<urn:cite:perseus:flcimg.338> rdf:label " " .
+<urn:cite:perseus:flcimg.338> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.338> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.338> .
+<urn:cite:perseus:flcimg.339> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.339> .
+<urn:cite:perseus:flcimg.339> rdf:label " " .
+<urn:cite:perseus:flcimg.339> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.339> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.339> .
+<urn:cite:perseus:flcimg.34> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.34> .
+<urn:cite:perseus:flcimg.34> rdf:label " " .
+<urn:cite:perseus:flcimg.34> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.34> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.34> .
+<urn:cite:perseus:flcimg.340> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.340> .
+<urn:cite:perseus:flcimg.340> rdf:label " " .
+<urn:cite:perseus:flcimg.340> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.340> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:26> crm:P138i_has_representation <urn:cite:perseus:flcimg.340> .
+<urn:cite:perseus:flcimg.341> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.341> .
+<urn:cite:perseus:flcimg.341> rdf:label " " .
+<urn:cite:perseus:flcimg.341> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.342> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.342> .
+<urn:cite:perseus:flcimg.342> rdf:label " " .
+<urn:cite:perseus:flcimg.342> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.343> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.343> .
+<urn:cite:perseus:flcimg.343> rdf:label " " .
+<urn:cite:perseus:flcimg.343> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.344> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.344> .
+<urn:cite:perseus:flcimg.344> rdf:label " " .
+<urn:cite:perseus:flcimg.344> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.345> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.345> .
+<urn:cite:perseus:flcimg.345> rdf:label " " .
+<urn:cite:perseus:flcimg.345> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.349> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.349> .
+<urn:cite:perseus:flcimg.349> rdf:label " " .
+<urn:cite:perseus:flcimg.349> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.35> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.35> .
+<urn:cite:perseus:flcimg.35> rdf:label " " .
+<urn:cite:perseus:flcimg.35> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.35> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.35> .
+<urn:cite:perseus:flcimg.36> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.36> .
+<urn:cite:perseus:flcimg.36> rdf:label " " .
+<urn:cite:perseus:flcimg.36> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.36> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:1> crm:P138i_has_representation <urn:cite:perseus:flcimg.36> .
+<urn:cite:perseus:flcimg.37> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.37> .
+<urn:cite:perseus:flcimg.37> rdf:label " " .
+<urn:cite:perseus:flcimg.37> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.37> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.37> .
+<urn:cite:perseus:flcimg.370> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.370> .
+<urn:cite:perseus:flcimg.370> rdf:label " " .
+<urn:cite:perseus:flcimg.370> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.370> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:20> crm:P138i_has_representation <urn:cite:perseus:flcimg.370> .
+<urn:cite:perseus:flcimg.38> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.38> .
+<urn:cite:perseus:flcimg.38> rdf:label " " .
+<urn:cite:perseus:flcimg.38> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.38> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.38> .
+<urn:cite:perseus:flcimg.39> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.39> .
+<urn:cite:perseus:flcimg.39> rdf:label " " .
+<urn:cite:perseus:flcimg.39> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.39> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.39> .
+<urn:cite:perseus:flcimg.4> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.4> .
+<urn:cite:perseus:flcimg.4> rdf:label " " .
+<urn:cite:perseus:flcimg.4> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.40> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.40> .
+<urn:cite:perseus:flcimg.40> rdf:label " " .
+<urn:cite:perseus:flcimg.40> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.40> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.40> .
+<urn:cite:perseus:flcimg.41> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.41> .
+<urn:cite:perseus:flcimg.41> rdf:label " " .
+<urn:cite:perseus:flcimg.41> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.41> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.41> .
+<urn:cite:perseus:flcimg.42> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.42> .
+<urn:cite:perseus:flcimg.42> rdf:label " " .
+<urn:cite:perseus:flcimg.42> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.42> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.42> .
+<urn:cite:perseus:flcimg.43> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.43> .
+<urn:cite:perseus:flcimg.43> rdf:label " " .
+<urn:cite:perseus:flcimg.43> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.43> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.43> .
+<urn:cite:perseus:flcimg.44> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.44> .
+<urn:cite:perseus:flcimg.44> rdf:label " " .
+<urn:cite:perseus:flcimg.44> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.44> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.44> .
+<urn:cite:perseus:flcimg.45> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.45> .
+<urn:cite:perseus:flcimg.45> rdf:label " " .
+<urn:cite:perseus:flcimg.45> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.45> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.45> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:2> crm:P138i_has_representation <urn:cite:perseus:flcimg.45> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.45> .
+<urn:cite:perseus:flcimg.46> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.46> .
+<urn:cite:perseus:flcimg.46> rdf:label " " .
+<urn:cite:perseus:flcimg.46> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.46> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.46> .
+<urn:cite:perseus:flcimg.47> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.47> .
+<urn:cite:perseus:flcimg.47> rdf:label " " .
+<urn:cite:perseus:flcimg.47> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.47> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.47> .
+<urn:cite:perseus:flcimg.48> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.48> .
+<urn:cite:perseus:flcimg.48> rdf:label " " .
+<urn:cite:perseus:flcimg.48> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.48> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.48> .
+<urn:cite:perseus:flcimg.49> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.49> .
+<urn:cite:perseus:flcimg.49> rdf:label " " .
+<urn:cite:perseus:flcimg.49> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.49> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.49> .
+<urn:cite:perseus:flcimg.5> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.5> .
+<urn:cite:perseus:flcimg.5> rdf:label " " .
+<urn:cite:perseus:flcimg.5> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.50> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.50> .
+<urn:cite:perseus:flcimg.50> rdf:label " " .
+<urn:cite:perseus:flcimg.50> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.50> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.50> .
+<urn:cite:perseus:flcimg.51> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.51> .
+<urn:cite:perseus:flcimg.51> rdf:label " " .
+<urn:cite:perseus:flcimg.51> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.51> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.51> .
+<urn:cite:perseus:flcimg.52> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.52> .
+<urn:cite:perseus:flcimg.52> rdf:label " " .
+<urn:cite:perseus:flcimg.52> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.52> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.52> .
+<urn:cite:perseus:flcimg.53> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.53> .
+<urn:cite:perseus:flcimg.53> rdf:label " " .
+<urn:cite:perseus:flcimg.53> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.53> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.53> .
+<urn:cite:perseus:flcimg.54> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.54> .
+<urn:cite:perseus:flcimg.54> rdf:label " " .
+<urn:cite:perseus:flcimg.54> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.54> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.54> .
+<urn:cite:perseus:flcimg.55> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.55> .
+<urn:cite:perseus:flcimg.55> rdf:label " " .
+<urn:cite:perseus:flcimg.55> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.55> .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.55> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:3> crm:P138i_has_representation <urn:cite:perseus:flcimg.55> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.55> .
+<urn:cite:perseus:flcimg.56> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.56> .
+<urn:cite:perseus:flcimg.56> rdf:label " " .
+<urn:cite:perseus:flcimg.56> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.56> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.56> .
+<urn:cite:perseus:flcimg.57> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.57> .
+<urn:cite:perseus:flcimg.57> rdf:label " " .
+<urn:cite:perseus:flcimg.57> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.57> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.57> .
+<urn:cite:perseus:flcimg.58> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.58> .
+<urn:cite:perseus:flcimg.58> rdf:label " " .
+<urn:cite:perseus:flcimg.58> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.58> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.58> .
+<urn:cite:perseus:flcimg.59> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.59> .
+<urn:cite:perseus:flcimg.59> rdf:label " " .
+<urn:cite:perseus:flcimg.59> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.59> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.59> .
+<urn:cite:perseus:flcimg.6> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.6> .
+<urn:cite:perseus:flcimg.6> rdf:label " " .
+<urn:cite:perseus:flcimg.6> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.60> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.60> .
+<urn:cite:perseus:flcimg.60> rdf:label " " .
+<urn:cite:perseus:flcimg.60> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.60> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.60> .
+<urn:cite:perseus:flcimg.61> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.61> .
+<urn:cite:perseus:flcimg.61> rdf:label " " .
+<urn:cite:perseus:flcimg.61> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.61> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.61> .
+<urn:cite:perseus:flcimg.62> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.62> .
+<urn:cite:perseus:flcimg.62> rdf:label " " .
+<urn:cite:perseus:flcimg.62> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.62> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.62> .
+<urn:cite:perseus:flcimg.63> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.63> .
+<urn:cite:perseus:flcimg.63> rdf:label " " .
+<urn:cite:perseus:flcimg.63> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.63> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.63> .
+<urn:cite:perseus:flcimg.64> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.64> .
+<urn:cite:perseus:flcimg.64> rdf:label " " .
+<urn:cite:perseus:flcimg.64> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.64> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.64> .
+<urn:cite:perseus:flcimg.65> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.65> .
+<urn:cite:perseus:flcimg.65> rdf:label " " .
+<urn:cite:perseus:flcimg.65> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.65> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.65> .
+<urn:cite:perseus:flcimg.66> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.66> .
+<urn:cite:perseus:flcimg.66> rdf:label " " .
+<urn:cite:perseus:flcimg.66> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.66> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.66> .
+<urn:cite:perseus:flcimg.67> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.67> .
+<urn:cite:perseus:flcimg.67> rdf:label " " .
+<urn:cite:perseus:flcimg.67> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.67> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.67> .
+<urn:cite:perseus:flcimg.68> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.68> .
+<urn:cite:perseus:flcimg.68> rdf:label " " .
+<urn:cite:perseus:flcimg.68> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.68> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.68> .
+<urn:cite:perseus:flcimg.69> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.69> .
+<urn:cite:perseus:flcimg.69> rdf:label " " .
+<urn:cite:perseus:flcimg.69> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.69> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.69> .
+<urn:cite:perseus:flcimg.7> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.7> .
+<urn:cite:perseus:flcimg.7> rdf:label " " .
+<urn:cite:perseus:flcimg.7> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.70> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.70> .
+<urn:cite:perseus:flcimg.70> rdf:label " " .
+<urn:cite:perseus:flcimg.70> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.70> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.70> .
+<urn:cite:perseus:flcimg.71> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.71> .
+<urn:cite:perseus:flcimg.71> rdf:label " " .
+<urn:cite:perseus:flcimg.71> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.71> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.71> .
+<urn:cite:perseus:flcimg.72> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.72> .
+<urn:cite:perseus:flcimg.72> rdf:label " " .
+<urn:cite:perseus:flcimg.72> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.72> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.72> .
+<urn:cite:perseus:flcimg.73> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.73> .
+<urn:cite:perseus:flcimg.73> rdf:label " " .
+<urn:cite:perseus:flcimg.73> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.73> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.73> .
+<urn:cite:perseus:flcimg.74> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.74> .
+<urn:cite:perseus:flcimg.74> rdf:label " " .
+<urn:cite:perseus:flcimg.74> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.74> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.74> .
+<urn:cite:perseus:flcimg.75> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.75> .
+<urn:cite:perseus:flcimg.75> rdf:label " " .
+<urn:cite:perseus:flcimg.75> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.75> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.75> .
+<urn:cite:perseus:flcimg.76> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.76> .
+<urn:cite:perseus:flcimg.76> rdf:label " " .
+<urn:cite:perseus:flcimg.76> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.76> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.76> .
+<urn:cite:perseus:flcimg.77> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.77> .
+<urn:cite:perseus:flcimg.77> rdf:label " " .
+<urn:cite:perseus:flcimg.77> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.77> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.77> .
+<urn:cite:perseus:flcimg.78> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.78> .
+<urn:cite:perseus:flcimg.78> rdf:label " " .
+<urn:cite:perseus:flcimg.78> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.78> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:4> crm:P138i_has_representation <urn:cite:perseus:flcimg.78> .
+<urn:cite:perseus:flcimg.79> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.79> .
+<urn:cite:perseus:flcimg.79> rdf:label " " .
+<urn:cite:perseus:flcimg.79> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.79> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.79> .
+<urn:cite:perseus:flcimg.8> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.8> .
+<urn:cite:perseus:flcimg.8> rdf:label " " .
+<urn:cite:perseus:flcimg.8> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.80> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.80> .
+<urn:cite:perseus:flcimg.80> rdf:label " " .
+<urn:cite:perseus:flcimg.80> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.80> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.80> .
+<urn:cite:perseus:flcimg.81> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.81> .
+<urn:cite:perseus:flcimg.81> rdf:label " " .
+<urn:cite:perseus:flcimg.81> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.81> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.81> .
+<urn:cite:perseus:flcimg.82> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.82> .
+<urn:cite:perseus:flcimg.82> rdf:label " " .
+<urn:cite:perseus:flcimg.82> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.82> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.82> .
+<urn:cite:perseus:flcimg.83> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.83> .
+<urn:cite:perseus:flcimg.83> rdf:label " " .
+<urn:cite:perseus:flcimg.83> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.83> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.83> .
+<urn:cite:perseus:flcimg.84> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.84> .
+<urn:cite:perseus:flcimg.84> rdf:label " " .
+<urn:cite:perseus:flcimg.84> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.84> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.84> .
+<urn:cite:perseus:flcimg.85> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.85> .
+<urn:cite:perseus:flcimg.85> rdf:label " " .
+<urn:cite:perseus:flcimg.85> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.85> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.85> .
+<urn:cite:perseus:flcimg.86> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.86> .
+<urn:cite:perseus:flcimg.86> rdf:label " " .
+<urn:cite:perseus:flcimg.86> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.86> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.86> .
+<urn:cite:perseus:flcimg.87> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.87> .
+<urn:cite:perseus:flcimg.87> rdf:label " " .
+<urn:cite:perseus:flcimg.87> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.87> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.87> .
+<urn:cite:perseus:flcimg.88> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.88> .
+<urn:cite:perseus:flcimg.88> rdf:label " " .
+<urn:cite:perseus:flcimg.88> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.88> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.88> .
+<urn:cite:perseus:flcimg.89> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.89> .
+<urn:cite:perseus:flcimg.89> rdf:label " " .
+<urn:cite:perseus:flcimg.89> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.89> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.89> .
+<urn:cite:perseus:flcimg.9> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.9> .
+<urn:cite:perseus:flcimg.9> rdf:label " " .
+<urn:cite:perseus:flcimg.9> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cite:perseus:flcimg.90> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.90> .
+<urn:cite:perseus:flcimg.90> rdf:label " " .
+<urn:cite:perseus:flcimg.90> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.90> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.90> .
+<urn:cite:perseus:flcimg.91> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.91> .
+<urn:cite:perseus:flcimg.91> rdf:label " " .
+<urn:cite:perseus:flcimg.91> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.91> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.91> .
+<urn:cite:perseus:flcimg.92> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.92> .
+<urn:cite:perseus:flcimg.92> rdf:label " " .
+<urn:cite:perseus:flcimg.92> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.92> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.92> .
+<urn:cite:perseus:flcimg.93> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.93> .
+<urn:cite:perseus:flcimg.93> rdf:label " " .
+<urn:cite:perseus:flcimg.93> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.93> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.93> .
+<urn:cite:perseus:flcimg.94> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.94> .
+<urn:cite:perseus:flcimg.94> rdf:label " " .
+<urn:cite:perseus:flcimg.94> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.94> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.94> .
+<urn:cite:perseus:flcimg.95> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.95> .
+<urn:cite:perseus:flcimg.95> rdf:label " " .
+<urn:cite:perseus:flcimg.95> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.95> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.95> .
+<urn:cite:perseus:flcimg.96> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.96> .
+<urn:cite:perseus:flcimg.96> rdf:label " " .
+<urn:cite:perseus:flcimg.96> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.96> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.96> .
+<urn:cite:perseus:flcimg.97> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.97> .
+<urn:cite:perseus:flcimg.97> rdf:label " " .
+<urn:cite:perseus:flcimg.97> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.97> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.97> .
+<urn:cite:perseus:flcimg.98> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.98> .
+<urn:cite:perseus:flcimg.98> rdf:label " " .
+<urn:cite:perseus:flcimg.98> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.98> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.98> .
+<urn:cite:perseus:flcimg.99> cite:belongsTo <urn:cite:perseus:flcimg> .
+<urn:cite:perseus:flcimg> cite:possesses <urn:cite:perseus:flcimg.99> .
+<urn:cite:perseus:flcimg.99> rdf:label " " .
+<urn:cite:perseus:flcimg.99> cite:license "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License." .
+<urn:cts:pdlmc:cdf.flc.perseus-lat1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.99> .
+<urn:cts:pdlmc:cdf.flc.perseus-eng1:5> crm:P138i_has_representation <urn:cite:perseus:flcimg.99> .
