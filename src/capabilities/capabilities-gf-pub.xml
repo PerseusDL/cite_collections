@@ -231,4 +231,26 @@
             name="author"
             type="authuser"/>
     </citeCollection>
+    <citeCollection canonicalId="urn" class="1Psav_NOa1Ehlksnqzabb5rPsJHi5i5J2ZMp2Jb4" name="bodlatimg"
+        description="Bodin Manuscript Images - Latin 1586" orderedBy="folio_page">
+        <namespaceMapping abbr="perseus" fullValue="http://data.perseus.org/ns/collections"/>
+        <citeProperty name="urn" label="Image URN" type="citeurn"/>
+        <citeProperty name="image_name" label="Image Name" type="text"/>
+        <citeProperty name="rights" label="Rights" type="string">
+            <valueList>
+                <value>Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty name="caption" label="Caption" type="string"/>
+        <citeProperty name="description" label="Description" type="string"/>
+        <citeProperty name="creator" label="Creator (Image)" type="string">
+            <valueList>
+                <value>Tisch Library, Tufts University</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty name="date" label="Date (Image)" type="datetime"/>
+        <citeProperty name="folio_page" label="Manuscript Page"/>
+        <citeProperty name="contains_urn" label="Text Range" type="ctsurn"/>
+        <citeProperty name="edited_by" label="Edited By" type="authuser"/>
+    </citeCollection>
 </collectionService>

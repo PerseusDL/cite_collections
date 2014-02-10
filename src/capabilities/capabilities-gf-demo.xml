@@ -55,28 +55,6 @@
     </citeCollection>
     <citeCollection
         canonicalId="urn"
-        class="1nLNd9a__tbj7x0MaEQoXQjuEzvgWnl4F8fjthXI"
-        name="comm"
-        description="Perseus General Commentary Collection">
-        <namespaceMapping
-            abbr="perseus"
-            fullValue="http://data.perseus.org/ns/collections"/>
-        <citeProperty
-            name="urn"
-            label="urn"
-            type="citeurn"
-        />
-        <citeProperty
-            name="commentary"
-            label="Commentary"
-            type="markdown"/>
-        <citeProperty
-            label="Author"
-            name="author"
-            type="authuser"/>
-    </citeCollection>
-    <citeCollection
-        canonicalId="urn"
         class="1HJR0WGqOqio8OZgTMscXSKpjFKUHmHSNo0XKzLY"
         name="bodinalign"
         description="Alignment beads in Bodin">
