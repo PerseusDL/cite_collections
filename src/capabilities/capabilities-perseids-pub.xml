@@ -90,6 +90,41 @@
     <citeCollection
         canonicalId="urn"
         class=""
+        name="align"
+        description="Translation Alignment Collection">
+        <namespaceMapping
+            abbr="perseus"
+            fullValue="http://data.perseus.org/ns/collections"/>
+        <citeProperty
+            label="Alignment URN"
+            name="urn"
+            type="citeurn"/>
+        <citeProperty
+            label="Alignment Data"
+            name="xml"
+            type="string"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="urn"
+        class=""
+        name="pdlcomm"
+        description="Perseus General Commentary Collection"
+        x-perseidsdefault="true">
+        <namespaceMapping
+            abbr="perseus"
+            fullValue="http://data.perseus.org/ns/collections"/>
+        <citeProperty
+            label="Annotation URN"
+            name="urn"
+            type="citeurn"/>
+        <citeProperty
+            label="Annotation"
+            name="oac"
+            type="string"/>
+    </citeCollection>
+    <citeCollection
+        canonicalId="urn"
+        class=""
         name="testcoll"
         description="Test Collection">
         <namespaceMapping
