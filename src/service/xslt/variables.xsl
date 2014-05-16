@@ -97,6 +97,11 @@
             base="http://services.perseus.tufts.edu/fcgi-bin/iipsrv.fcgi?FIF=/mnt/netapp/image-cite-colls/src/flcimg/"
             params_thumb="&amp;cnt=1&amp;WID=400&amp;CVT=JPEG" 
             params_full="&amp;cnt=1&amp;sds=0,0&amp;jtl=0,0"/>
+        
+        <collection name="perseus:msimg" 
+            base="http://services.perseus.tufts.edu/fcgi-bin/iipsrv.fcgi?FIF=/mnt/netapp/image-cite-colls/src/msimg/"
+            params_thumb="&amp;cnt=1&amp;WID=400&amp;CVT=JPEG" 
+            params_full="&amp;cnt=1&amp;sds=0,0&amp;jtl=0,0"/>
     </xsl:variable>
     
     

@@ -10,6 +10,7 @@
         <!-- Default is to link the urls to the collection manager on Perseids -->
         <collection name="default" class="noshow-cite-collection"/>
         <collection name="perseus:lci" class="cite-collection"/>
+        <collection name="perseus:flcpalimg" class="cite-collection"/>
     </xsl:variable>
     
     <xsl:template match="/">
