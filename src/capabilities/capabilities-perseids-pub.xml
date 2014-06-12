@@ -33,7 +33,7 @@
                 label="Annotation"
                 name="oac"
                 type="string"
-                x-perseidsmax="500"/>
+                x-perseidsmax="525"/>
         </citeCollection>
         <citeCollection
             canonicalId="urn"
@@ -58,6 +58,23 @@
 	        class=""
 	        name="grctb"
 	        description="Greek Treebank Collection">
+	        <namespaceMapping
+	            abbr="perseus"
+	            fullValue="http://data.perseus.org/ns/collections"/>
+	        <citeProperty
+	            label="Treebank URN"
+	            name="urn"
+	            type="citeurn"/>
+	        <citeProperty
+	            label="Treebank Data"
+	            name="xml"
+	            type="string"/>
+	    </citeCollection>
+	    <citeCollection
+	        canonicalId="urn"
+	        class=""
+	        name="aratb"
+	        description="Arabic Treebank Collection">
 	        <namespaceMapping
 	            abbr="perseus"
 	            fullValue="http://data.perseus.org/ns/collections"/>
