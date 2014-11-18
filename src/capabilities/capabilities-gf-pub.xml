@@ -264,7 +264,7 @@
             </valueList>
         </citeProperty>
         <citeProperty name="caption" label="Caption" type="string"/>
-        <citeProperty name="http://www.kanzaki.com/ns/exif#description" label="Description" type="string"/>
+        <citeProperty name="description" label="Description" type="string"/>
         <citeProperty name="creator" label="Creator (Image)" type="string"/>
         <citeProperty name="date" label="Date (Image)" type="datetime"/>
         <citeProperty name="folio_page" label="Manuscript Page"/>
