@@ -93,7 +93,7 @@
         <p><xsl:apply-templates select="./cite:urn"/></p>
     <p>
         <xsl:element name="a">
-            <xsl:attribute name="href">http://sosol.perseids.org/ccm/#collection=<xsl:value-of select="substring-after($coll,'urn:cite:perseus:')"/></xsl:attribute>
+            <xsl:attribute name="href">http://services2.perseids.org/ccm/#collection=<xsl:value-of select="substring-after($coll,'urn:cite:perseus:')"/></xsl:attribute>
             <xsl:attribute name="target">_blank</xsl:attribute>
             <xsl:text>Add Item to Collection</xsl:text>
         </xsl:element>

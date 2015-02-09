@@ -37,7 +37,7 @@
     <!-- Per-Collection Config for links on the Object URN -->
     <xsl:variable name="urn_link">
         <!-- Default is to link the urls to the collection manager on Perseids -->
-        <collection name="default" link="http://sosol.perseids.org/ccm/#collection="/>                
+        <collection name="default" link="http://services2.perseids.org/ccm/#collection="/>                
     </xsl:variable>
     
     <!-- Per-Collection Config for retrieval of cited text -->
