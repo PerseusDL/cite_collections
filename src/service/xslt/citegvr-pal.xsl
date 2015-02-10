@@ -5,6 +5,8 @@
     <xsl:import href="footer.xsl"/>
     <xsl:output encoding="UTF-8" indent="yes" method="html"/>
     
+    <!-- Prototype transformation of GetValidReff list of a collection of Paleographic symbols as ROI on CITE collection images -->
+    
     <!-- Per-Collection Config for retrieval of object details-->
     <xsl:variable name="cite_obj_class">
         <!-- Default is to link the urls to the collection manager on Perseids -->
@@ -18,25 +20,16 @@
             <head>
                 <meta charset="utf-8"></meta>
                 <!-- For now we will use the old html cts kit code but need to upgrade -->
-                <link href="http://perseids.org/sites/berti_demo/ctskit/css/normalize.css" media="screen" rel="stylesheet" type="text/css" ></link>
-                <link href="http://perseids.org/sites/berti_demo/ctskit/css/tei.css" media="screen" rel="stylesheet" type="text/css"></link>
-                <link href="http://perseids.org/sites/berti_demo/ctskit/css/citeCollection.css" media="screen" rel="stylesheet" type="text/css"></link>
-                 <link href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"></link>
-                <link href="http://perseids.org/sites/berti_demo/ctskit/css/epifacs.css" media="screen" rel="stylesheet" type="text/css"></link>
-                <link href="http://perseids.org/sites/berti_demo/ctskit/css/berti.css" media="screen" rel="stylesheet" type="text/css"></link>
-                <script src="http://perseids.org/sites/berti_demo/ctskit/js/jquery-1.7.2.min.js" type="text/javascript" ></script>
-                <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-                <script src="http://perseids.org/sites/berti_demo/ctskit/js/sarissa/sarissa-compressed.js" type="text/javascript"></script>
-                <script src="http://perseids.org/sites/berti_demo/ctskit/js/sarissa/sarissa_ieemu_xpath-compressed.js" type="text/javascript"></script>
-                <script src="http://perseids.org/sites/berti_demo/ctskit/js/markdown.js" type="text/javascript"></script>
-                <script src="http://perseids.org/sites/berti_demo/ctskit/js/cite-cts-kit.js" type="text/javascript" ></script>
-                <script src="http://perseids.org/sites/berti_demo/ctskit/js/cts-subref.js" type="text/javascript" ></script>
-                <script src="http://perseids.org/sites/berti_demo/ctskit/js/lci.js" type="text/javascript" ></script>
-                <script type="text/javascript" src="http://perseids.org/tools/citekit/js/perseids-cite-ld.js"> </script>
-                
-                <!-- from the cs service -->
+                <!-- Collection Service Styles -->
+                <link rel="stylesheet" type="text/css" href="css/citeCollection.css"/>
                 <link rel="stylesheet" type="text/css" href="css/perseus.css"/>
                 
+                <!-- CiteKit Styles and Scripts -->
+                <link rel="stylesheet" type="text/css" href="http://perseids.org/tools/citekit/css/citekit.css"/>
+                <script type="text/javascript" src="http://perseids.org/tools/citekit/js/cite-jq.js"> </script>
+                <script type="text/javascript" src="http://perseids.org/tools/citekit/js/perseids-cite-ld.js"> </script>
+                <title>Perseus CITE Collection Object <xsl:value-of select="$this_obj_urn"/></title>
+                   
                 <!-- User-defined variables -->
                 <script type="text/javascript">
                     
@@ -61,7 +54,7 @@
                 <title>Perseus CITE Collection <xsl:value-of select="$this_coll"/></title>
             </head>
             <body>
-                <!--xsl:copy-of select="$citekitconfig"/-->
+                <xsl:copy-of select="$citekitconfig"/>
                 <xsl:apply-templates/>
                 <xsl:call-template name="footer"/>
             </body>
@@ -116,7 +109,7 @@
                     <xsl:choose>
                         <xsl:when test="exsl:node-set($cite_obj_class)/collection[@name=$this_coll]">
                             <div class="canonicaluri"><span class="label">Object Canonical URI:</span>
-                                <a href="{concat($base_collection_url,$target_for_annotation)}" 
+                                <a href="{concat($base_collection_url,$this_obj_urn_no_ver)}" 
                                     title="Object Canonical URI" alt="Object Stable URI"
                                     onclick="javascript:alert('Right click to copy link.');return false;">
                                     <xsl:value-of select="concat($base_collection_url,$target_for_annotation)"/></a>

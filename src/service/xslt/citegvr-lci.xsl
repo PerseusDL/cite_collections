@@ -121,7 +121,7 @@
         <xsl:if test="$highest_version != ''">
             <li>   
                 <xsl:element name="a">
-                  <xsl:attribute name="href">http://perseids.org/collections/<xsl:value-of select="."/></xsl:attribute>
+                  <xsl:attribute name="href"><xsl:value-of select="$target_for_annotation"/></xsl:attribute>
                   <xsl:attribute name="onclick">javascript:alert("Right click to copy link.");return false;</xsl:attribute>
                   http://perseids.org/collections/<xsl:value-of select="."/>
                 </xsl:element>  
