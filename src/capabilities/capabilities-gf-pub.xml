@@ -51,6 +51,35 @@
         <citeProperty name="work_date" label="Work Date" type="datetime"/>
     </citeCollection>    
     <citeCollection
+        canonicalId="image_urn"
+        class="1xfB76MIL9eWGx1GrlEF6_ZwMj9q9rIxDdMPwoawX"
+        name="epidoctraining"
+        description="Epidoc Training Image Collection">
+        <namespaceMapping
+            abbr="perseus"
+            fullValue="http://data.perseus.org/ns/collections"/>
+        <citeProperty
+            label="Image URN"
+            name="image_urn"
+            type="citeurn"/>
+        <citeProperty label="Image Name" name="name" type="string"/>
+        <citeProperty name="rights" label="Rights" type="string">
+            <valueList>
+                <value>http://www.bsrdigitalcollections.it/copyright01.html</value>
+                <value>Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.</value>
+            </valueList>
+        </citeProperty>
+        <citeProperty name="caption" label="Caption" type="string"/>
+        <citeProperty name="title" label="Title" type="string"/>
+        <citeProperty name="description" label="Description" type="string"/>
+        <citeProperty name="creator" label="Creator (Image)" type="string"/>
+        <citeProperty name="date" label="Date (Image)" type="datetime"/>
+        <citeProperty name="edited_by" label="Edited By" type="authuser"/>
+        <citeProperty label="Work URN" name="work_urn" type="ctsurn"/>
+        <citeProperty name="work_creator" label="Work Creator" type="string"/>
+        <citeProperty name="work_date" label="Work Date" type="datetime"/>
+    </citeCollection>    
+    <citeCollection
             canonicalId="urn"
             class="1ftJ-hXUv4XyEEu_vdpKKJQKyvoVbUTMA2izEhFM"
             name="grclexent"
